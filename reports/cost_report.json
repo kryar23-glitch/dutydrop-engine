@@ -1,0 +1,85 @@
+{
+  "label": "test suite (simulated usage)",
+  "simulated_usage": true,
+  "prices_verified": false,
+  "price_per_m": {
+    "input": "0.14",
+    "output": "0.28"
+  },
+  "receipts": 6,
+  "total_usd": "0.003346",
+  "mean_per_receipt_usd": "0.000558",
+  "max_per_receipt_usd": "0.001806",
+  "target_usd": "0.005",
+  "cap_usd": "0.02",
+  "per_stage": {
+    "identify": {
+      "calls": 5,
+      "input": 5000,
+      "cached": 0,
+      "output": 2250,
+      "images": 5,
+      "cost": "0.001330",
+      "mean_cost_per_call": "0.000266"
+    },
+    "decide": {
+      "calls": 6,
+      "input": 10800,
+      "cached": 0,
+      "output": 1800,
+      "images": 0,
+      "cost": "0.002016",
+      "mean_cost_per_call": "0.000336"
+    }
+  },
+  "per_receipt": [
+    {
+      "audit_id": "03fd8ccadfd648ba9ba948776b2c8ad0",
+      "calls": 2,
+      "cost_usd": "0.000602",
+      "cached": false,
+      "cap_hit": false,
+      "outcome": "strong"
+    },
+    {
+      "audit_id": "1fd13c30252e40b0a71da3edf3045a1b",
+      "calls": 2,
+      "cost_usd": "0.000602",
+      "cached": false,
+      "cap_hit": false,
+      "outcome": "strong"
+    },
+    {
+      "audit_id": "2a4adbe4d3774a2abd01b1f3cdacfee5",
+      "calls": 0,
+      "cost_usd": "0",
+      "cached": false,
+      "cap_hit": true,
+      "outcome": "marginal"
+    },
+    {
+      "audit_id": "3999ade1a22a41af80a42bd4dbb7e462",
+      "calls": 1,
+      "cost_usd": "0.000336",
+      "cached": false,
+      "cap_hit": false,
+      "outcome": "marginal"
+    },
+    {
+      "audit_id": "b4fc8ec5589441daa07f025aec4f894c",
+      "calls": 0,
+      "cost_usd": "0",
+      "cached": true,
+      "cap_hit": false,
+      "outcome": "strong"
+    },
+    {
+      "audit_id": "ce593d8a25f44dc6b60f78fc2d1d1683",
+      "calls": 6,
+      "cost_usd": "0.001806",
+      "cached": false,
+      "cap_hit": false,
+      "outcome": "weak"
+    }
+  ]
+}

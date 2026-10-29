@@ -1,0 +1,6 @@
+state/
+reports/live/state/
+reports/live/flow/
+__pycache__/
+*.pyc
+.env

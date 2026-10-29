@@ -1,0 +1,98 @@
+[
+ {
+  "case": "Hand operated kitchen whisk, stainless steel wire loops, plastic handle",
+  "status": "needs_input",
+  "audit_id": "797a6f23e12843869279b62b66e8771f",
+  "questions": [
+   {
+    "attribute": "material",
+    "question": "Is the whisk predominantly stainless steel or predominantly plastic?",
+    "id": "q1"
+   },
+   {
+    "attribute": "function",
+    "question": "Is the item a hand-operated kitchen tool for mixing/whipping food?",
+    "id": "q2"
+   },
+   {
+    "attribute": "use",
+    "question": "Is the item used in the kitchen for food preparation rather than as a general hand tool?",
+    "id": "q3"
+   }
+  ],
+  "disclaimer": "Estimate only. Check this with a customs broker. DutyDrop is not a customs broker.",
+  "link": "dutydrop.co"
+ },
+ {
+  "case": "Men's crew neck t-shirt, knitted, 100% cotton",
+  "status": "needs_input",
+  "audit_id": "1d7b667052644951be28294b2895653f",
+  "questions": [
+   {
+    "attribute": "material",
+    "question": "Is the garment made of cotton knit fabric (not woven)?",
+    "id": "q1"
+   },
+   {
+    "attribute": "function",
+    "question": "Is it a T-shirt/pullover style rather than a button-front shirt?",
+    "id": "q2"
+   },
+   {
+    "attribute": "use",
+    "question": "Is it sized and styled for men (not boys)?",
+    "id": "q3"
+   }
+  ],
+  "disclaimer": "Estimate only. Check this with a customs broker. DutyDrop is not a customs broker.",
+  "link": "dutydrop.co"
+ },
+ {
+  "case": "Desk lamp with LED bulb, plastic base and steel arm, plugs into the wall",
+  "status": "needs_input",
+  "audit_id": "3934a0b1f5d049889a4528ec09e58df3",
+  "questions": [
+   {
+    "attribute": "function",
+    "question": "Is the lamp designed solely for use with LED light sources (integrated or LED-only socket)?",
+    "id": "q1"
+   },
+   {
+    "attribute": "power",
+    "question": "Is the lamp powered only by an AC wall outlet, or does it have a battery/portable self-contained energy source?",
+    "id": "q2"
+   },
+   {
+    "attribute": "use",
+    "question": "Is it a desk/table-standing luminaire rather than a bare LED light source or module?",
+    "id": "q3"
+   }
+  ],
+  "disclaimer": "Estimate only. Check this with a customs broker. DutyDrop is not a customs broker.",
+  "link": "dutydrop.co"
+ },
+ {
+  "case": "synthetic label photo",
+  "status": "needs_input",
+  "audit_id": "a249728051884803b747ef0bc1af0cfc",
+  "questions": [
+   {
+    "attribute": "material",
+    "question": "Is the whisk made entirely of stainless steel, or does it have a non-steel handle or grip?",
+    "id": "q1"
+   },
+   {
+    "attribute": "function",
+    "question": "Is the item a hand-held kitchen utensil for mixing/beating food, rather than a component wire or industrial cable?",
+    "id": "q2"
+   },
+   {
+    "attribute": "use",
+    "question": "Is it imported as a finished kitchen ware article rather than as bulk stainless steel wire?",
+    "id": "q3"
+   }
+  ],
+  "disclaimer": "Estimate only. Check this with a customs broker. DutyDrop is not a customs broker.",
+  "link": "dutydrop.co"
+ }
+]

@@ -1,0 +1,17 @@
+{
+  "revision": "2026_Rev21",
+  "source": "Frozen from DutyDrop AI Engine Spec v1, section 2 rule 4",
+  "counts": {
+    "base": 29861,
+    "catalog": 3112,
+    "coverage": 314287,
+    "active_by_hts": 101381,
+    "country_wide": 78
+  },
+  "section301_lists": {
+    "List 1": 861,
+    "List 2": 288,
+    "List 3": 5911,
+    "List 4A": 2984
+  }
+}
