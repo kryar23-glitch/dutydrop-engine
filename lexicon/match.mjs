@@ -244,6 +244,22 @@ function parseCsv(text) { // small CSV reader: quoted fields, commas, newlines
   return rows.filter((r) => r.length === head.length).map((r) => Object.fromEntries(head.map((h, i) => [h, r[i]])));
 }
 
+// stated container capacity in liters ("40oz", "1.2 L", "750 ml"), or null; ounces read as fluid ounces
+function capacityLiters(text) {
+  const m = text.toLowerCase().match(/(\d+(?:\.\d+)?)\s*(fl\.?\s*oz|oz|ounces?|ml|milliliters?|l|liters?|litres?)\b/);
+  if (!m) return null;
+  const n = parseFloat(m[1]), u = m[2];
+  if (/^(fl|oz|ounce)/.test(u)) return n * 0.0295735;
+  if (/^(ml|milli)/.test(u)) return n / 1000;
+  return n;
+}
+
+function sizeVariant(e, liters) {
+  if (liters === null) return null;
+  const want = liters > 2 ? "over 2 liters" : liters > 1 ? "over 1 liter up to 2 liters" : null;
+  return want ? (e.variants || []).find((v) => v.when === want) || null : null;
+}
+
 export class Matcher {
   constructor(entries, aliasRows, missRows) {
     this.entries = entries;
@@ -349,6 +365,10 @@ export class Matcher {
     const applied = [];
     const v = pickVariant(e, ws);
     if (v) { hts10 = v.hts10; assumption = v.note || "Matched stated attribute: " + v.when; applied.push(v.when); }
+    if (!applied.length) {
+      const sv = sizeVariant(e, capacityLiters(text));
+      if (sv) { hts10 = sv.hts10; assumption = sv.note || "Matched stated size: " + sv.when; applied.push(sv.when); }
+    }
     const runners = ranked.slice(1, 4).filter(([, s]) => s >= best - 1).map(([r]) => ({ entry_id: r, hts10: this.entries[r].hts10 }));
     return {
       input: text, normalized: t, entry_id: eid, term: e.term, hts10, assumption, applied_variants: applied, confidence,

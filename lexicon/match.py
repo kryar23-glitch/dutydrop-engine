@@ -248,6 +248,27 @@ def _pick_variant(entry, toks):
     return best
 
 
+def capacity_liters(text):
+    """Stated container capacity in liters ("40oz", "1.2 L", "750 ml"), or None. Ounces read as fluid ounces."""
+    m = re.search(r"(\d+(?:\.\d+)?)\s*(fl\.?\s*oz|oz|ounces?|ml|milliliters?|l|liters?|litres?)\b", text.lower())
+    if not m:
+        return None
+    n, u = float(m.group(1)), m.group(2)
+    if u.startswith(("fl", "oz", "ounce")):
+        return n * 0.0295735
+    if u.startswith(("ml", "milli")):
+        return n / 1000
+    return n
+
+
+def size_variant(e, liters):
+    """The capacity variant a stated size selects, for entries with liter bands."""
+    if liters is None:
+        return None
+    want = "over 2 liters" if liters > 2 else ("over 1 liter up to 2 liters" if liters > 1 else None)
+    return next((v for v in e.get("variants", []) if v.get("when") == want), None) if want else None
+
+
 class Matcher:
     def __init__(self, dist):
         self.entries = json.load(open(os.path.join(dist, "lexicon.json")))
@@ -342,6 +363,11 @@ class Matcher:
         if v:
             hts, assumption = v["hts10"], v.get("note", "") or "Matched stated attribute: " + v["when"]
             applied.append(v["when"])
+        if not applied:
+            sv = size_variant(e, capacity_liters(text))
+            if sv:
+                hts, assumption = sv["hts10"], sv.get("note", "") or "Matched stated size: " + sv["when"]
+                applied.append(sv["when"])
         runners = [x for x, s in ranked[1:4] if s >= best - 1]
         return {"input": text, "normalized": t, "entry_id": eid, "term": e["term"], "hts10": hts,
                 "assumption": assumption, "applied_variants": applied, "confidence": conf,
