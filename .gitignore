@@ -4,3 +4,11 @@ reports/live/flow/
 __pycache__/
 *.pyc
 .env
+golden/photos/
+golden/run_state/
+golden/contact*.jpg
+golden/run_v*.log
+golden/golden_results*.json
+golden/q2.txt
+golden/queries.txt
+golden/find_codes.py

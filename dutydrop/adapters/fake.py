@@ -7,7 +7,7 @@ from typing import Callable, List, Optional
 from ..costs import CallRecord, Ledger, price
 from .base import ModelAdapter, normalize_description
 
-SIM = {"identify": (1000, 450), "decide": (1800, 300)}
+SIM = {"identify": (1000, 450), "decide": (1800, 300), "headings": (1200, 20)}
 
 
 class FakeAdapter(ModelAdapter):

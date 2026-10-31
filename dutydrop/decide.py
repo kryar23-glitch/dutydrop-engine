@@ -13,7 +13,7 @@ from . import config
 from .adapters.base import ModelAdapter, ModelOutputError
 from .costs import CostCapReached, Ledger
 from .data import HTSData
-from .retrieval import Candidate, Index, retrieve
+from .retrieval import Candidate, Index, heading_shortlist, retrieve
 
 ATTRS = ("identity", "material", "function", "construction")
 STRONG, MARGINAL, WEAK = "strong", "marginal", "weak"
@@ -35,9 +35,28 @@ def _clip(x) -> float:
 
 
 def score_round(data: HTSData, index: Index, adapter: ModelAdapter, desc: dict, ledger: Ledger) -> dict:
-    cands: List[Candidate] = retrieve(index, desc, pool=config.RETRIEVE_POOL, shortlist=config.SHORTLIST_SIZE)
     result = {"candidates": [], "rejected_codes": [], "model_questions": [], "model_used": False,
-              "cost_cap_hit": False, "outcome": WEAK, "top": None, "margin": 0.0}
+              "cost_cap_hit": False, "outcome": WEAK, "top": None, "margin": 0.0, "headings_offered": [],
+              "headings_chosen": []}
+    offered = heading_shortlist(index, desc, config.HEADING_SHORTLIST)
+    result["headings_offered"] = [h["h"] for h in offered]
+    chosen = []
+    try:
+        picks = adapter.pick_headings(desc, offered, ledger)
+        ok = {h["h"] for h in offered}
+        for h in picks:
+            h = "".join(ch for ch in str(h) if ch.isdigit())[:4]
+            if h in ok and h not in chosen:          # validation gate: offered headings only
+                chosen.append(h)
+            elif h:
+                result["rejected_codes"].append(h)
+    except CostCapReached:
+        result["cost_cap_hit"] = True
+    except ModelOutputError as e:
+        result["heading_error"] = str(e)
+    result["headings_chosen"] = chosen
+    cands: List[Candidate] = retrieve(index, desc, pool=config.RETRIEVE_POOL, shortlist=config.SHORTLIST_SIZE,
+                                      headings=chosen or None)
     if not cands:
         return result
     short_codes = {c.code for c in cands}

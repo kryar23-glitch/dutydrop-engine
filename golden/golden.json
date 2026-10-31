@@ -1,0 +1,523 @@
+[
+ {
+  "id": "whisk",
+  "q": "wire whisk kitchen",
+  "acc6": [
+   "820551"
+  ],
+  "acc10": [
+   "8205513030"
+  ]
+ },
+ {
+  "id": "tshirt",
+  "q": "t-shirt",
+  "acc6": [
+   "610910"
+  ],
+  "acc10": [
+   "6109100012"
+  ],
+  "kw": "T-shirt"
+ },
+ {
+  "id": "laptop",
+  "q": "laptop computer open",
+  "acc6": [
+   "847130"
+  ],
+  "acc10": [
+   "8471300100"
+  ]
+ },
+ {
+  "id": "smartphone",
+  "q": "smartphone",
+  "acc6": [
+   "851713"
+  ],
+  "acc10": [
+   "8517130000"
+  ]
+ },
+ {
+  "id": "desk_lamp",
+  "q": "LED desk lamp",
+  "acc6": [
+   "940521"
+  ],
+  "acc10": [
+   "9405216010",
+   "9405218010",
+   "9405214010"
+  ]
+ },
+ {
+  "id": "mug",
+  "q": "ceramic coffee mug",
+  "acc6": [
+   "691200",
+   "691110"
+  ],
+  "acc10": []
+ },
+ {
+  "id": "vacuum_flask",
+  "q": "vacuum flask",
+  "acc6": [
+   "961700"
+  ],
+  "acc10": [
+   "9617001000",
+   "9617003000"
+  ],
+  "kw": "flask"
+ },
+ {
+  "id": "office_chair",
+  "q": "office chair",
+  "acc6": [
+   "940139",
+   "940131"
+  ],
+  "acc10": [
+   "9401390010",
+   "9401390030"
+  ],
+  "kw": "chair"
+ },
+ {
+  "id": "sneakers",
+  "q": "canvas sneakers shoes",
+  "acc6": [
+   "640411",
+   "640419"
+  ],
+  "acc10": []
+ },
+ {
+  "id": "handbag",
+  "q": "leather handbag",
+  "acc6": [
+   "420221"
+  ],
+  "acc10": [
+   "4202216000",
+   "4202219000"
+  ]
+ },
+ {
+  "id": "backpack",
+  "q": "backpack",
+  "acc6": [
+   "420292"
+  ],
+  "acc10": [
+   "4202923120"
+  ],
+  "kw": "backpack"
+ },
+ {
+  "id": "sunglasses",
+  "q": "sunglasses",
+  "acc6": [
+   "900410"
+  ],
+  "acc10": [
+   "9004100000"
+  ],
+  "kw": "sunglasses"
+ },
+ {
+  "id": "headphones",
+  "q": "over-ear headphones",
+  "acc6": [
+   "851830"
+  ],
+  "acc10": [
+   "8518302000"
+  ]
+ },
+ {
+  "id": "teddy_bear",
+  "q": "teddy bear toy",
+  "acc6": [
+   "950300"
+  ],
+  "acc10": [
+   "9503000071",
+   "9503000073",
+   "9503000090"
+  ],
+  "kw": "teddy bear"
+ },
+ {
+  "id": "lego",
+  "q": "Lego bricks",
+  "acc6": [
+   "950300"
+  ],
+  "acc10": [
+   "9503000071",
+   "9503000073",
+   "9503000090"
+  ]
+ },
+ {
+  "id": "bicycle",
+  "q": "bicycle",
+  "acc6": [
+   "871200"
+  ],
+  "acc10": []
+ },
+ {
+  "id": "umbrella",
+  "q": "folding umbrella",
+  "acc6": [
+   "660191",
+   "660199"
+  ],
+  "acc10": [
+   "6601910000",
+   "6601990000"
+  ]
+ },
+ {
+  "id": "skillet",
+  "q": "cast iron skillet",
+  "acc6": [
+   "732391"
+  ],
+  "acc10": [
+   "7323915040"
+  ]
+ },
+ {
+  "id": "drinking_glass",
+  "q": "tumbler drinking glass water",
+  "acc6": [
+   "701337"
+  ],
+  "acc10": [],
+  "kw": "glass"
+ },
+ {
+  "id": "hammer",
+  "q": "claw hammer",
+  "acc6": [
+   "820520"
+  ],
+  "acc10": [
+   "8205203000"
+  ]
+ },
+ {
+  "id": "screwdriver",
+  "q": "screwdriver tool",
+  "acc6": [
+   "820540"
+  ],
+  "acc10": [
+   "8205400000"
+  ]
+ },
+ {
+  "id": "scissors",
+  "q": "scissors",
+  "acc6": [
+   "821300"
+  ],
+  "acc10": [
+   "8213000300",
+   "8213000900"
+  ]
+ },
+ {
+  "id": "drill",
+  "q": "cordless drill",
+  "acc6": [
+   "846721"
+  ],
+  "acc10": [
+   "8467210010"
+  ]
+ },
+ {
+  "id": "hair_dryer",
+  "q": "hair dryer",
+  "acc6": [
+   "851631"
+  ],
+  "acc10": [
+   "8516310000"
+  ]
+ },
+ {
+  "id": "toaster",
+  "q": "electric toaster",
+  "acc6": [
+   "851672"
+  ],
+  "acc10": [
+   "8516720000"
+  ]
+ },
+ {
+  "id": "kettle",
+  "q": "electric kettle",
+  "acc6": [
+   "851679"
+  ],
+  "acc10": [
+   "8516790000"
+  ]
+ },
+ {
+  "id": "blender",
+  "q": "kitchen blender",
+  "acc6": [
+   "850940"
+  ],
+  "acc10": [
+   "8509400015"
+  ]
+ },
+ {
+  "id": "vacuum_cleaner",
+  "q": "vacuum cleaner",
+  "acc6": [
+   "850811",
+   "850819"
+  ],
+  "acc10": [
+   "8508110000",
+   "8508190000"
+  ],
+  "kw": "cleaner"
+ },
+ {
+  "id": "led_bulb",
+  "q": "LED lamp bulb E27",
+  "acc6": [
+   "853952"
+  ],
+  "acc10": [],
+  "kw": "LED"
+ },
+ {
+  "id": "fan",
+  "q": "electric desk fan",
+  "acc6": [
+   "841451"
+  ],
+  "acc10": [
+   "8414519090"
+  ]
+ },
+ {
+  "id": "usb_cable",
+  "q": "USB cable",
+  "acc6": [
+   "854442"
+  ],
+  "acc10": [
+   "8544429090",
+   "8544422000"
+  ]
+ },
+ {
+  "id": "cutting_board",
+  "q": "cutting board kitchen",
+  "acc6": [
+   "441911",
+   "441920",
+   "441990"
+  ],
+  "acc10": [],
+  "kw": "board"
+ },
+ {
+  "id": "food_container",
+  "q": "plastic food storage container",
+  "acc6": [
+   "392410"
+  ],
+  "acc10": [
+   "3924104000"
+  ]
+ },
+ {
+  "id": "towel",
+  "q": "bath towel",
+  "acc6": [
+   "630260"
+  ],
+  "acc10": [
+   "6302600020"
+  ],
+  "kw": "towel"
+ },
+ {
+  "id": "sweater",
+  "q": "wool sweater",
+  "acc6": [
+   "611011"
+  ],
+  "acc10": []
+ },
+ {
+  "id": "wallet",
+  "q": "leather wallet",
+  "acc6": [
+   "420231"
+  ],
+  "acc10": [
+   "4202316000"
+  ],
+  "kw": "jeans"
+ },
+ {
+  "id": "cap",
+  "q": "baseball cap",
+  "acc6": [
+   "650500"
+  ],
+  "acc10": []
+ },
+ {
+  "id": "socks",
+  "q": "cotton socks",
+  "acc6": [
+   "611595"
+  ],
+  "acc10": [
+   "6115959000"
+  ]
+ },
+ {
+  "id": "candle",
+  "q": "wax candle",
+  "acc6": [
+   "340600"
+  ],
+  "acc10": [
+   "3406000000"
+  ]
+ },
+ {
+  "id": "picture_frame",
+  "q": "empty wooden picture frame",
+  "acc6": [
+   "441490",
+   "441410"
+  ],
+  "acc10": [
+   "4414900000",
+   "4414100000"
+  ],
+  "kw": "frame"
+ },
+ {
+  "id": "mirror",
+  "q": "wall mirror framed",
+  "acc6": [
+   "700992"
+  ],
+  "acc10": [],
+  "kw": "mirror"
+ },
+ {
+  "id": "padlock",
+  "q": "padlock",
+  "acc6": [
+   "830110"
+  ],
+  "acc10": [],
+  "kw": "padlock"
+ },
+ {
+  "id": "tennis_racket",
+  "q": "tennis racket",
+  "acc6": [
+   "950651"
+  ],
+  "acc10": [
+   "9506512000"
+  ],
+  "kw": "racket"
+ },
+ {
+  "id": "soccer_ball",
+  "q": "soccer ball on grass",
+  "acc6": [
+   "950662"
+  ],
+  "acc10": [
+   "9506624080"
+  ],
+  "kw": "ball"
+ },
+ {
+  "id": "basketball",
+  "q": "basketball ball",
+  "acc6": [
+   "950662"
+  ],
+  "acc10": [
+   "9506628020"
+  ],
+  "kw": "basketball"
+ },
+ {
+  "id": "guitar",
+  "q": "acoustic guitar isolated",
+  "acc6": [
+   "920290"
+  ],
+  "acc10": [
+   "9202902000",
+   "9202904000"
+  ],
+  "kw": "guitar"
+ },
+ {
+  "id": "pencils",
+  "q": "wooden pencils",
+  "acc6": [
+   "960910"
+  ],
+  "acc10": [
+   "9609100000"
+  ]
+ },
+ {
+  "id": "ballpoint_pen",
+  "q": "ballpoint pen",
+  "acc6": [
+   "960810"
+  ],
+  "acc10": [
+   "9608100000"
+  ]
+ },
+ {
+  "id": "dog_leash",
+  "q": "dog leash",
+  "acc6": [
+   "420100"
+  ],
+  "acc10": [
+   "4201003000"
+  ]
+ },
+ {
+  "id": "tape_measure",
+  "q": "tape measure",
+  "acc6": [
+   "901780"
+  ],
+  "acc10": [],
+  "kw": "tape"
+ }
+]

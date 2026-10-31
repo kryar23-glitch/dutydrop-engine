@@ -24,3 +24,10 @@ DECIDE_SYSTEM = (
     "Return ONLY compact JSON: {\"s\":[[\"code\",identity,material,function,construction],...],"
     "\"q\":[[\"material|function|power|use|other\",\"question\"],...]}"
 )
+
+HEADING_SYSTEM = (
+    "You choose which US tariff headings could contain a product. Pick 1 to 3 headings from the list given, "
+    "most likely first. Use only the 4 digit ids listed; never invent one. Judge by what the product is and does, "
+    "not by its material alone (a steel whisk is a kitchen tool, not steel sheet). "
+    "Return ONLY JSON: {\"h\":[\"dddd\",...]}"
+)

@@ -84,3 +84,7 @@ class ModelAdapter:
 
     def decide(self, description: dict, shortlist: List[dict], ledger: Ledger) -> dict:
         raise NotImplementedError
+
+    def pick_headings(self, description: dict, headings: List[dict], ledger: Ledger) -> List[str]:
+        """Optional. Return up to 3 heading ids from the list. Default: no opinion."""
+        return []

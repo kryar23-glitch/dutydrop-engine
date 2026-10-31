@@ -81,5 +81,14 @@ class OpenAICompatAdapter(ModelAdapter):
                                           config.MAX_TOKENS_DECIDE, ledger, 0))
 
 
+    def pick_headings(self, description: dict, headings: List[dict], ledger: Ledger) -> List[str]:
+        payload = {"product": {k: description.get(k) for k in ("product_name", "function_and_use", "materials",
+                                                                "form_and_construction", "user_text")},
+                   "headings": [{"h": h["h"], "t": h["t"][:170]} for h in headings]}
+        raw = self._chat("headings", prompts.HEADING_SYSTEM, json.dumps(payload, separators=(",", ":")),
+                         config.MAX_TOKENS_HEADINGS, ledger, 0)
+        return [str(x) for x in (raw.get("h") or [])][:3]
+
+
 def get_adapter(provider: Optional[str] = None) -> ModelAdapter:
     return OpenAICompatAdapter(provider or config.PROVIDER)
