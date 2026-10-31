@@ -1,0 +1,7 @@
+{"id": "area-rug", "when": "wool", "hts10": "5703.10.80.00", "note": "Assumes machine tufted wool. Hand knotted wool goes to 5701.10."}
+{"id": "area-rug", "when": "nylon", "hts10": "5703.29.20.10", "note": "Assumes tufted nylon, not over 5.25 m2."}
+{"id": "kitchen-mat", "when": "cotton", "hts10": "5702.99.15.00", "note": "Assumes flatweave cotton, power loomed."}
+{"id": "dutch-oven", "when": "enameled cast iron", "hts10": "7323.92.00.40", "note": "Enameled cast iron."}
+{"id": "dutch-oven", "when": "enamel cast iron", "hts10": "7323.92.00.40", "note": "Enameled cast iron."}
+{"id": "jewelry-box", "when": "wood unlined", "hts10": "4420.90.45.00", "note": "Wood, not lined with textile."}
+{"id": "jewelry-box", "when": "wood", "hts10": "4420.90.65.00", "note": "Assumes wood lined with textile fabric."}

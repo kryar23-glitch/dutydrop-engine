@@ -1,0 +1,24 @@
+277/300 correct at 6 digits, 5 no match, 18 wrong
+NO MATCH: battery operated wall clock silent
+NO MATCH: mens quartz analog watch stainless steel
+NO MATCH: sterling silvr hoop earings
+NO MATCH: foam roler
+NO MATCH: halloween decorashions skeleton
+WRONG: ("women's high rise skinny jeans cotton", '6203.42.45.11', 'jeans', '620462')
+WRONG: ('mens athletic shorts knit polyester', '6203.43.90.30', 'athletic shorts', '610343')
+WRONG: ('mens flannel pajama pants cotton', '6207.91.30.10', 'pajama pants', '620721')
+WRONG: ('satin pajamas women polyester', '6108.32.00.10', 'pajamas', '620822')
+WRONG: ("women's leather ankle boots rubber sole", '6403.51.90.30', 'ankle boots', '640391')
+WRONG: ('mens leather oxford dress shoes leather sole', '6403.99.60.75', 'dress shoes', '640359')
+WRONG: ('knee high rubber rain boots women', '6401.92.90.60', 'rain boots', '640199')
+WRONG: ('cotton flat weave kitchen rug', '3918.90.10.00', 'kitchen mat', '570299')
+WRONG: ('coir doormat welcome', '5703.90.00.00', 'doormat', '570220')
+WRONG: ('enameled cast iron dutch oven 6 qt', '7323.91.50.40', 'camp dutch oven', '732392')
+WRONG: ('upholstered sofa couch 3 seater wood frame', '9003.11.00.00', 'eyeglass frames', '940161')
+WRONG: ('wooden dining chairs set of 2 not upholstered', '9401.61.40.11', 'dining chair', '940169')
+WRONG: ('gold plated brass hoop earrings', '7113.19.50.91', 'earrings', '711719')
+WRONG: ('wooden jewelry box', '4202.99.30.00', 'jewelry box', '442090')
+WRONG: ('terracotta pots 6 inch', '6912.00.50.00', 'ceramic planter', '691490')
+WRONG: ('glazed ceramic planter', '6912.00.50.00', 'ceramic planter', '691390|691490')
+WRONG: ('pickelball paddle', '9506.99.60.80', 'pickleball paddle', '950659')
+WRONG: ('infant car seat', '9401.80.60.21', 'infant car seat', '940120')

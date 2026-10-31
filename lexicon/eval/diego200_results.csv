@@ -1,0 +1,201 @@
+product,entry,hts10,confidence,applied_variant,hts_description
+Stainless steel saucepan,saucepan,7323.93.00.45,weak,stainless steel,Other
+Aluminum frying pan,frying pan,7615.10.30.25,strong,,Other
+Cast iron skillet,cast iron skillet,7323.91.50.40,exact,,Other
+Stainless steel kettle,tea kettle,7323.93.00.15,weak,,Teakettles
+Plastic colander,colander,3924.10.40.00,weak,plastic,Other
+Wood cutting board,cutting board,4419.90.91.00,exact,wood,Other
+Stainless steel kitchen knife,chef knife,8211.92.20.00,strong,,Kitchen and butcher knives
+Stainless steel spoon,table spoon,8215.99.35.00,weak,,Other
+Stainless steel fork,dinner fork,8215.99.15.00,weak,,Other
+Plastic food container,food storage container,3924.10.40.00,strong,,Other
+Plastic spatula,spatula,3924.10.40.00,weak,plastic,Other
+Steel can opener,can opener,8210.00.00.00,strong,,"Hand-operated mechanical appliances, weighing 10 kg or less, used in the preparation, conditioning or serving of food or drink, and base metal parts thereof"
+Steel corkscrew,corkscrew,8205.51.30.30,weak,,Kitchen and table implements
+Plastic ice cube tray,ice cube tray,3924.10.40.00,strong,,Other
+Bamboo chopsticks,chopsticks,4419.12.00.00,exact,,Chopsticks
+Ceramic coffee mug,ceramic mug,6912.00.44.00,strong,,Mugs and other steins
+Porcelain coffee cup,ceramic mug,6911.10.45.00,strong,porcelain,Mugs and other steins
+Ceramic household plate,dinner plate,6912.00.48.10,weak,stoneware,Suitable for food or drink contact
+Porcelain household plate,dinner plate,6911.10.80.10,weak,porcelain,Suitable for food or drink contact
+Ceramic household bowl,bowl,6912.00.48.10,weak,stoneware,Suitable for food or drink contact
+Porcelain household bowl,bowl,6911.10.80.10,weak,porcelain,Suitable for food or drink contact
+Glass drinking tumbler,insulated tumbler,7013.37.20.90,weak,glass,Other
+Glass wine glass,wine glass,7013.28.20.90,strong,,Other
+Glass beer mug,beer glass,7013.37.20.90,exact,,Other
+Glass carafe,pitcher,7013.49.60.90,weak,glass over $5,Other
+Glass household jar,glass storage jar,7013.49.60.90,strong,glass over $5,Other
+Glass vase,vase,7013.99.80.90,exact,glass $3 to $5,Other
+Ceramic vase,ceramic vase,6913.90.50.00,exact,,Other
+Porcelain statuette,figurine,6913.10.50.00,weak,porcelain,Other
+Ceramic household teapot,teapot,6912.00.48.10,weak,,Suitable for food or drink contact
+Cotton t-shirt,t-shirt,6109.10.00.12,exact,men's cotton,Men's (338)
+Cotton knitted sweater,sweater,6110.20.20.20,weak,women's cotton,Women's (345)
+Wool knitted sweater,sweater,6110.11.00.30,weak,women's wool,Women's (446)
+Cotton trousers,dress pants,6204.62.80.18,weak,women's cotton,Other (348)
+Cotton shorts,shorts,6203.42.45.51,weak,men's cotton,Men's shorts (347)
+Cotton knitted dress,dress,6104.42.00.10,weak,"knit cotton, women's",Women's (336)
+Cotton knitted skirt,skirt,6104.52.00.10,weak,"knit cotton, women's",Women's (342)
+Cotton socks,socks,6115.95.90.00,weak,cotton,Other (332)
+Cotton gloves,gloves,6116.92.88.00,weak,knit cotton,Without fourchettes (331)
+Leather belt,belt,4203.30.00.00,exact,leather,Belts and bandoliers with or without buckles
+Cotton scarf,scarf,6214.90.00.10,weak,woven cotton,Of cotton (359)
+Cotton handkerchief,handkerchief,6213.20.10.00,exact,,"Hemmed, not containing lace or embroidery (330)"
+Rubber waterproof footwear,rain boots,6401.92.90.60,strong,,Other
+Leather sports footwear,sneakers,6403.99.90.31,strong,women's leather upper,Other
+Textile sports footwear,sneakers,6404.11.90.50,strong,women's textile upper over $12,Other
+Textile backpack,backpack,4202.92.31.20,weak,polyester or nylon,Backpacks (670)
+Leather handbag,leather handbag,4202.21.90.00,exact,,Valued over $20 each
+Plastic handbag,handbag,4202.22.15.00,weak,,With outer surface of sheeting of plastics
+Textile handbag,handbag,4202.22.81.00,weak,polyester or nylon,Of man-made fibers (670)
+Leather wallet,wallet,4202.31.60.00,exact,,Other
+Plastic wallet,wallet,4202.39.10.00,weak,molded plastic,Of plastics
+Textile travel bag,duffel bag,4202.92.31.31,strong,polyester or nylon,Other (670)
+Leather travel bag,duffel bag,4202.91.90.30,strong,leather,"Travel, sports and similar bags"
+Plastic suitcase,suitcase,4202.12.21.20,weak,hard shell plastic (polycarbonate or ABS),"Structured, rigid on all sides"
+Textile suitcase,suitcase,4202.12.81.70,weak,soft sided polyester or nylon,Other (670)
+Leather briefcase,briefcase,4202.11.00.30,exact,leather,"Attache cases, briefcases, school satchels, occupational luggage cases and similar containers"
+Plastic briefcase,briefcase,4202.12.29.10,weak,rigid plastic,"Attache cases, briefcases and similar containers"
+Textile sports bag,gym bag,4202.92.31.31,strong,polyester or nylon,Other (670)
+Textile insulated food bag,lunch bag,4202.92.08.07,strong,polyester or nylon,Of man-made fibers (670)
+Textile shopping bag,tote bag,4202.92.31.31,strong,polyester or nylon,Other (670)
+Toy doll,doll,9503.00.00.73,exact,,3 to 12 years of age
+Toy stuffed animal,plush toy,9503.00.00.73,strong,,3 to 12 years of age
+Toy puzzle,jigsaw puzzle,9503.00.00.73,weak,,3 to 12 years of age
+Toy playing cards,playing cards,9504.40.00.00,strong,,Playing cards
+Toy chess set,chess set,9504.90.60.00,strong,,"Chess, checkers, parchisi, backgammon, darts and other games played on boards of a special design, all the foregoing games and parts there of (including their boards); mah-jong and dominoes; any of the foregoing games in combination with each other, or with other games, packaged together as a unit in immediate containers of a type used in retail sales; poker chips and dice"
+Toy construction set,construction set,9503.00.00.73,strong,,3 to 12 years of age
+Toy electric train,toy train set,9503.00.00.73,strong,,3 to 12 years of age
+Toy model car,diecast scale model,9503.00.00.90,strong,,Other
+Toy tricycle,tricycle,9503.00.00.73,weak,,3 to 12 years of age
+Toy scooter,kick scooter,9503.00.00.73,weak,,3 to 12 years of age
+Toy musical instrument,toy musical instrument,9503.00.00.73,exact,,3 to 12 years of age
+Toy balloon,balloons,9503.00.00.90,weak,,Other
+Toy video game console,video game console,9504.50.00.00,strong,,"Video game consoles and machines, other than those of subheading 9504.30, and parts and accessories thereof"
+Toy dice,dice,9504.90.60.00,weak,,"Chess, checkers, parchisi, backgammon, darts and other games played on boards of a special design, all the foregoing games and parts there of (including their boards); mah-jong and dominoes; any of the foregoing games in combination with each other, or with other games, packaged together as a unit in immediate containers of a type used in retail sales; poker chips and dice"
+Plastic phone case,phone case,3926.90.99.89,strong,,Other
+Computer keyboard,computer keyboard,8471.60.20.00,exact,,Keyboards
+Computer mouse,computer mouse,8471.60.90.50,exact,,Other
+Computer monitor,computer monitor,8528.52.00.00,exact,,Capable of directly connecting to and designed for use with an automatic data processing machine of heading 8471
+Computer printer,inkjet printer,8443.32.10.40,weak,,Ink jet
+Computer scanner,document scanner,8471.60.80.00,weak,,Optical scanners and magnetic ink recognition devices
+Computer speaker,computer speakers,8518.22.00.00,exact,,"Multiple loudspeakers, mounted in the same enclosure"
+Computer headphones,headphones,8518.30.20.00,weak,,Other
+USB cable,usb cable,8544.42.90.90,exact,,Other
+Electrical battery charger,battery charger,8504.40.95.10,strong,,With a power output not exceeding 50 W
+Lithium ion battery,lithium-ion battery,8507.60.00.90,exact,,Other
+Computer microphone,microphone,8518.10.80.30,weak,,Microphones
+Computer storage unit,external hard drive,8471.70.50.65,exact,,Hard magnetic disk drive units
+Computer webcam,webcam,8525.89.30.00,weak,,Other
+Household electric toaster,toaster,8516.72.00.00,weak,,Toasters
+Household electric coffee maker,coffee maker,8516.71.00.60,strong,other electric coffee maker,Other
+Household electric kettle,electric kettle,8516.79.00.00,strong,,Other
+Household electric blender,blender,8509.40.00.15,weak,,Blenders
+Household electric food mixer,stand mixer,8509.40.00.25,strong,,Other food mixers
+Household electric juicer,juicer,8509.40.00.30,weak,,Juice extractors
+Household electric rice cooker,rice cooker,8516.60.60.00,strong,,Other
+Household electric oven,toaster oven,8516.60.40.70,strong,,Portable
+Household microwave oven,microwave oven,8516.50.00.60,strong,,Having a capacity exceeding 22.5 liters but not exceeding 31.0 liters
+Household vacuum cleaner,vacuum cleaner,8508.11.00.00,strong,,"Of a power not exceeding 1,500 W and having a dust bag or other receptacle capacity not exceeding 20 l"
+Household electric fan,table fan,8414.51.90.90,strong,,Other
+Household electric iron,clothes iron,8516.40.40.00,strong,,Other
+Household electric heater,space heater,8516.29.00.30,strong,,Fan-forced
+Household electric humidifier,ultrasonic humidifier,8509.80.50.70,weak,,Ultrasonic
+Integrated LED table lamp,led desk lamp,9405.21.80.10,strong,,Household
+Integrated LED floor lamp,led floor lamp,9405.21.60.10,strong,,Household
+Integrated LED ceiling luminaire,led ceiling light,9405.11.60.10,strong,,Household
+Integrated LED wall luminaire,wall sconce,9405.11.60.10,strong,led integrated,Household
+LED light bulb,led light bulb,8539.52.00.10,exact,,Of a type specified in statistical note 8(a) to this chapter
+Incandescent light bulb,incandescent light bulb,8539.22.80.40,exact,,Of a power 15 W or more but not exceeding 150 W
+Halogen light bulb,halogen bulb,8539.21.40.40,exact,,Of a power less than 500 W
+Fluorescent discharge lamp,fluorescent lamp,8539.31.00.60,exact,,With a single screw-in base
+Electric flashlight,flashlight,8513.10.20.00,weak,,Flashlights
+Non-electric oil lamp,oil lamp,9405.50.40.00,strong,,Other
+Non-electric candle luminaire,candle holder,9405.50.40.00,exact,,Other
+Integrated LED chandelier,chandelier,9405.11.60.10,weak,led integrated,Household
+Electric lighting fitting,led ceiling light,9405.11.60.10,strong,,Household
+Electrical lamp holder,light socket adapter,8536.61.00.00,strong,,Lamp-holders
+Steel claw hammer,claw hammer,8205.20.30.00,strong,,With heads not over 1.5 kg each
+Steel hand-operated screwdriver,screwdriver,8205.40.00.00,weak,,"Screwdrivers, and parts thereof"
+Steel hand-operated pliers,pliers,8203.20.60.30,weak,,Pliers
+Steel hand-operated wrench,combination wrench,8204.11.00.30,weak,,"Open-end, box and combination open-end and box wrenches"
+Steel hand-operated spade,shovel,8201.10.00.00,weak,,"Spades and shovels, and parts thereof"
+Steel hand-operated shovel,shovel,8201.10.00.00,weak,,"Spades and shovels, and parts thereof"
+Steel hand-operated rake,garden rake,8201.30.00.80,weak,,Other
+Steel hand-operated saw,hand saw,8202.10.00.00,weak,,"Handsaws, and parts (except blades) thereof"
+Steel hand-operated file,file,8203.10.90.00,weak,,Over 17 cm in length
+Steel hand-operated scissors,scissors,8213.00.90.00,weak,,Other (including parts)
+Steel padlock,padlock,8301.10.80.00,weak,,Over 3.8 cm but not over 6.4 cm in width
+Steel hinge,door hinge,8302.10.60.30,weak,,"Suitable for interior and exterior doors (except garage, overhead or sliding doors)"
+Steel screw,wood screws,7318.12.00.00,weak,,Other wood screws
+Steel nail,nails,7317.00.55.20,exact,,"Not coated, plated or painted"
+Wood dining table,dining table,9403.60.80.40,strong,,Dining tables
+Wood chair,dining chair,9401.69.60.11,weak,wood not upholstered,Other household
+Wood bed,bed frame,9403.50.90.45,weak,,Other
+Wood bookshelf,bookcase,9403.60.80.93,weak,,Other
+Wood cabinet,sideboard,9403.60.80.93,weak,,Other
+Metal chair,dining chair,9401.79.00.46,weak,metal not upholstered,Household
+Metal bed,bed frame,9403.20.00.50,weak,metal other bed,Other
+Plastic chair,dining chair,9401.80.40.46,weak,plastic,Other
+Glass mirror,wall mirror,7009.92.50.95,weak,,Other
+Cotton cushion,throw pillow,9404.90.10.90,weak,cotton cover,Other (369)
+Cotton curtain,curtains,6303.91.00.10,weak,cotton,Window curtains (including drapes) and window valances (369)
+Cotton bed linen,bed sheets,6302.21.90.20,strong,cotton printed,Sheets (361)
+Wool carpet,area rug,5703.10.80.00,weak,wool,Other (465)
+Wood picture frame,picture frame,4414.90.00.00,strong,wood,Other
+Inflatable football,american football,9506.62.40.40,weak,,Footballs
+Inflatable basketball,basketball,9506.62.80.20,weak,,Basketballs
+Inflatable volleyball,volleyball,9506.62.80.40,weak,,Volleyballs
+Tennis ball,tennis ball,9506.61.00.00,exact,,Lawn-tennis balls
+Table tennis ball,table tennis set,9506.40.00.00,exact,,"Articles and equipment for table-tennis, and parts and accessories thereof"
+Tennis racket,tennis racket,9506.51.20.00,exact,,"Rackets, strung"
+Badminton racket,badminton racket,9506.59.40.40,exact,,Rackets and racket frames
+Table tennis racket,table tennis set,9506.40.00.00,exact,,"Articles and equipment for table-tennis, and parts and accessories thereof"
+Golf club,golf club,9506.31.00.00,exact,,"Golf clubs, complete"
+Golf ball,golf ball,9506.32.00.00,exact,,Balls
+Fishing rod,fishing rod,9507.10.00.40,exact,,Fishing rods
+Fishing reel,fishing reel,9507.30.60.00,exact,,Valued over $8.45 each
+Roller skate,roller skates,9506.70.20.10,exact,,Attached to boots
+Ice skate,ice skates,9506.70.40.00,exact,,Ice skates with footwear permanently attached
+Plastic hair comb,comb,9615.11.30.00,strong,,Other
+Plastic hair slide,hair clip,9615.11.40.00,strong,plastic,Not set with imitation pearls or imitation gemstones
+Natural bristle hair brush,hair brush,9603.29.80.10,strong,,Hairbrushes
+Electric hair dryer,hair dryer,8516.31.00.00,strong,,Hair dryers
+Electric hair clipper,hair clipper,8510.20.90.00,strong,,Other
+Electric shaver,electric shaver,8510.10.00.00,exact,,Shavers
+Steel manicure scissors,scissors,8213.00.90.00,weak,,Other (including parts)
+Steel nail clipper,nail clipper,8214.20.30.00,strong,,"Cuticle or cornknives, cuticle pushers, nail files, nailcleaners, nail nippers and clippers, all the foregoing used for manicure or pedicure purposes, and parts thereof"
+Steel tweezers,tweezers,8203.20.20.00,weak,,Tweezers
+Toothbrush,toothbrush,9603.21.00.00,exact,,"Toothbrushes, including dental-plate brushes"
+Electric toothbrush,electric toothbrush,8509.80.50.45,exact,,Electric toothbrushes
+Cosmetic brush,makeup brush,9603.30.60.00,exact,,Valued over 10¢ each
+Hand mirror,compact mirror,7009.92.10.90,exact,,Other
+Plastic hair curler,curling iron,8516.32.00.20,strong,,Curlers
+Leather dog collar,dog collar,4201.00.30.00,exact,,"Dog leashes, collars, muzzles, harnesses and similar dog equipment"
+Textile dog collar,dog collar,4201.00.30.00,strong,,"Dog leashes, collars, muzzles, harnesses and similar dog equipment"
+Leather dog leash,dog leash,4201.00.30.00,strong,,"Dog leashes, collars, muzzles, harnesses and similar dog equipment"
+Textile dog leash,dog leash,4201.00.30.00,strong,,"Dog leashes, collars, muzzles, harnesses and similar dog equipment"
+Plastic household pet bowl,pet bowl,3924.90.56.50,strong,plastic or silicone,Other
+Steel household pet bowl,pet bowl,7323.93.00.80,strong,,Other
+Ceramic household pet bowl,pet bowl,6912.00.50.00,strong,ceramic,Other
+Textile pet bed,dog bed,6307.90.98.91,strong,,Other
+Plastic pet carrier,pet carrier,3926.90.99.89,strong,hard plastic,Other
+Steel pet cage,dog crate,7326.20.00.90,strong,,Other
+Rubber pet toy,dog chew toy,4016.99.20.00,strong,,Toys for pets
+Plastic aquarium,glass aquarium,3926.90.99.89,weak,acrylic,Other
+Glass aquarium,glass aquarium,7020.00.60.00,exact,,Other
+Pet grooming brush,pet brush,9603.90.80.50,strong,,Other
+Ballpoint pen,ballpoint pen,9608.10.00.00,exact,,Ball point pens
+Felt tipped pen,marker,9608.20.00.00,exact,,Felt tipped and other porous-tipped pens and markers
+Propelling pencil,mechanical pencil,9608.40.40.00,exact,,"With a mechanical action for extending, or for extending and retracting, the lead"
+Lead pencil,pencil,9609.10.00.00,exact,,"Pencils and crayons, with leads encased in a sheath"
+Rubber eraser,eraser,4016.92.00.00,exact,,Erasers
+Pencil sharpener,pencil sharpener,8214.10.00.00,exact,,"Paper knives, letter openers, erasing knives, pencil sharpeners (nonmechanical) and blades and other parts thereof"
+Paper notebook,notebook,4820.10.20.40,weak,,"Other note books with dimensions of 152.4-381 mm (6"" - 15""), inclusive (small side) X 222.5-381 mm (8.75"" -15""), inclusive (large side)"
+Paper exercise book,exercise book,4820.20.00.00,strong,,Exercise books
+Paper envelope,envelope,4817.10.00.00,weak,,Envelopes
+Paper folder,folder,4820.30.00.40,weak,,Other
+Steel paper clip,paper clips,8305.90.30.10,strong,,Wholly of wire
+Office stapler,stapler,8472.90.90.80,weak,,Other
+Plastic ruler,ruler,9017.80.00.00,exact,,Other instruments
+Adhesive tape,scotch tape,3919.10.20.30,exact,,Not exceeding 5 cm in width

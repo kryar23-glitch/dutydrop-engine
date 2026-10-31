@@ -1,0 +1,8 @@
+293/300 correct at 6 digits, 0 no match, 7 wrong
+WRONG: ('mens flannel pajama pants cotton', '6207.91.30.10', 'pajama pants', '620721')
+WRONG: ('coir doormat welcome', '5703.90.00.00', 'doormat', '570220')
+WRONG: ('computer desk wood home office', '9403.60.80.93', 'desk', '940330')
+WRONG: ('terracotta pots 6 inch', '6912.00.50.00', 'ceramic planter', '691490')
+WRONG: ('glazed ceramic planter', '6912.00.50.00', 'ceramic planter', '691390|691490')
+WRONG: ('pickelball paddle', '9506.99.60.80', 'pickleball paddle', '950659')
+WRONG: ('infant car seat', '9401.80.60.21', 'infant car seat', '940120')
