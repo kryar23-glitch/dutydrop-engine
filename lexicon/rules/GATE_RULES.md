@@ -31,14 +31,22 @@ R5. Note 52 duties do not apply to goods under the Section 232 programs listed i
 
 R6. Mexico. The 9903.05.55 duty does not apply to goods entered free under USMCA (note 52(h)). The default receipt assumes the goods do not qualify and shows the duty. A second line shows "If USMCA qualifying" with that duty removed. This is a scenario, not an open stack, so the total stays firm.
 
-R7. Section 232 metals. Since April 6, 2026 the 9903.82 duties apply to the full customs value of the article (note 16(c)), at the 50, 25 or 10 percent tier its heading sets. For most derivative headings they apply only when the listed metal is at least 15 percent of the article's weight; below that the duty is zero. Default: assume the metal is at least 15 percent of the weight for articles of chapters 72 to 76, cutlery, hinges, cookware, ovens, heaters and cables, and print that assumption with an alternate line "If metal is under 15% of weight: $0". This prices every metal case without asking for a content value. The Section 301 China duty still stacks on top; the Forced Labor duty does not (R5).
+R7. Section 232 metals. Note 16(a) allows exactly one 9903.82 heading per article. Pick it by the note 16(c) list that names the code (parsed into `dutydrop/manifests/note16_lists_2026_Rev21.json`): lists (i) to (v) take 9903.82.02 at 50 percent; lists (vi) to (viii) and (xi) take 9903.82.09 at 25 percent; lists (ix) and (x) take a 15 percent floor, 9903.82.10 for the difference when the base rate is under 15 percent, else 9903.82.11 at zero. Since April 6, 2026 the duty runs on the full customs value. A code on no list owes no metals duty, whatever the overlay join attached. Outside chapters 72, 73, 74 and 76, assume the metal is at least 15 percent of the weight, print that assumption and add the scenario "If metal is under 15% of weight". Section 301 China stacks on top; the note 52 duty does not (R5).
 
 R8. Compound rates. Receipts ask for quantity in the unit the HTS line uses (each, dozen, gross). SEO page examples state the quantity they assume, for example "100 pens at $1.00 each", and price the specific part from it.
 
-## Expected result on the curated 200
+R9. Quartz surface safeguard (9903.45.30 and .31, note 41). It covers only quartz surface products: silica and resin slabs, countertops, tiles and similar. Code 7020.00.60 also holds ordinary glass articles, so drop these headings unless the seller says the product is a quartz surface, and print one note.
 
-- Today: 97 products pass.
-- Rules R1 to R6: 184 products pass on China, Vietnam and Mexico.
-- Add R7 (metal weight assumption) and R8 (stated quantity on page examples): 200 of 200 pass, each with its assumption printed.
+R10. A heading whose note subdivision enumerates codes applies only to the codes it lists. Example: 9903.91.08 (note 31(i)) covers 4015.12.10 gloves only, not every China product the join touched.
+
+R11. Transitional headings for goods "exported to the United States before" a past date (9903.88.09, May 2019) never apply to a new entry.
+
+R1 also covers overlay lines that need an importer certification of end use: 9903.94.07 (note 33(p), parts certified for U.S. auto production or repair).
+
+## Result on the curated 200
+
+`dutydrop/gate.py` implements R1 to R11. On the 200 curated products for China, Vietnam and Mexico at $100 and $1.00 a unit, 600 of 600 receipts are firm and 200 of 200 products pass, each with its assumptions printed. Per receipt lines in `gate_results.json`. Tests in `tests/test_gate.py`.
+
+Open question for a broker: lithium ion batteries (8507.60) carry the Section 232 auto parts duty 9903.94.05 because 8507.60 is on the note 33(g) list. Whether CBP applies it to batteries not meant for vehicles is not settled in the note text; the gate keeps it, the conservative choice.
 
 The per-receipt analysis is in gate_analysis.json and engine_run.json in this folder. STACKING_RULES.md holds the legal history, the full precedence order and the open questions, including the China exclusions that expire November 9, 2026 unless extended.

@@ -29,12 +29,12 @@ def _dec(s) -> Optional[Decimal]:
 
 
 # ---------------------------------------------------------------- rate parsing
-SPEC_RE = re.compile(r"(\d+(?:\.\d+)?)\s*(¢|\$)\s*/\s*([A-Za-z0-9.]+)")
+SPEC_RE = re.compile(r"(\d+(?:\.\d+)?)\s*(¢|\$)\s*(?:/\s*([A-Za-z0-9.]+)|(each))")
 PCT_RE = re.compile(r"(\d+(?:\.\d+)?)\s*%")
 UNIT_ALIASES = {"kg": "kg", "kilogram": "kg", "kilograms": "kg", "liter": "liter", "liters": "liter", "l": "liter",
                 "doz": "doz", "dozen": "doz", "each": "no", "no": "no", "no.": "no", "unit": "no", "units": "no",
                 "pcs": "no", "pieces": "no", "pr": "pr", "pair": "pr", "pairs": "pr", "m2": "m2", "m": "m",
-                "head": "head", "gross": "gross", "kg.": "kg", "proof liter": "pf.liter", "pf.liter": "pf.liter"}
+                "head": "head", "gross": "gross", "kg.": "kg", "doz.": "doz", "pcs.": "no", "no..": "no", "proof liter": "pf.liter", "pf.liter": "pf.liter"}
 
 
 def _unit(u: str) -> str:
@@ -59,7 +59,8 @@ def rate_amount(rate_text: str, value: Decimal, qty: Optional[Decimal], qty_unit
         if qty is None or not qty_unit:
             return None, t, "quantity_needed_for_specific_rate"
         total = Decimal(0)
-        for amt, cur, unit in specs:
+        for amt, cur, unit, each in specs:
+            unit = unit or each
             if _unit(unit) != _unit(qty_unit):
                 return None, t, f"quantity_unit_mismatch: rate is per {unit}, quantity given in {qty_unit}"
             per = Decimal(amt) / (100 if cur == "¢" else 1)
