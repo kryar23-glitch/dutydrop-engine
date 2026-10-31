@@ -1,0 +1,2213 @@
+{
+ "232_metal_content": [
+  [
+   "Stainless steel saucepan",
+   "7323.93.00.45",
+   "China"
+  ],
+  [
+   "Stainless steel saucepan",
+   "7323.93.00.45",
+   "Vietnam"
+  ],
+  [
+   "Stainless steel saucepan",
+   "7323.93.00.45",
+   "Mexico"
+  ],
+  [
+   "Aluminum frying pan",
+   "7615.10.30.25",
+   "China"
+  ],
+  [
+   "Aluminum frying pan",
+   "7615.10.30.25",
+   "Vietnam"
+  ],
+  [
+   "Aluminum frying pan",
+   "7615.10.30.25",
+   "Mexico"
+  ],
+  [
+   "Stainless steel kettle",
+   "7323.93.00.15",
+   "China"
+  ],
+  [
+   "Stainless steel kettle",
+   "7323.93.00.15",
+   "Vietnam"
+  ],
+  [
+   "Stainless steel kettle",
+   "7323.93.00.15",
+   "Mexico"
+  ],
+  [
+   "Stainless steel spoon",
+   "8215.99.35.00",
+   "Vietnam"
+  ],
+  [
+   "Stainless steel spoon",
+   "8215.99.35.00",
+   "Mexico"
+  ],
+  [
+   "USB cable",
+   "8544.42.90.90",
+   "Vietnam"
+  ],
+  [
+   "USB cable",
+   "8544.42.90.90",
+   "Mexico"
+  ],
+  [
+   "Household electric rice cooker",
+   "8516.60.60.00",
+   "Vietnam"
+  ],
+  [
+   "Household electric rice cooker",
+   "8516.60.60.00",
+   "Mexico"
+  ],
+  [
+   "Household electric oven",
+   "8516.60.40.70",
+   "Vietnam"
+  ],
+  [
+   "Household electric oven",
+   "8516.60.40.70",
+   "Mexico"
+  ],
+  [
+   "Household electric heater",
+   "8516.29.00.30",
+   "Vietnam"
+  ],
+  [
+   "Household electric heater",
+   "8516.29.00.30",
+   "Mexico"
+  ],
+  [
+   "Steel hinge",
+   "8302.10.60.30",
+   "China"
+  ],
+  [
+   "Steel hinge",
+   "8302.10.60.30",
+   "Vietnam"
+  ],
+  [
+   "Steel hinge",
+   "8302.10.60.30",
+   "Mexico"
+  ],
+  [
+   "Steel screw",
+   "7318.12.00.00",
+   "China"
+  ],
+  [
+   "Steel screw",
+   "7318.12.00.00",
+   "Vietnam"
+  ],
+  [
+   "Steel screw",
+   "7318.12.00.00",
+   "Mexico"
+  ],
+  [
+   "Steel nail",
+   "7317.00.55.20",
+   "China"
+  ],
+  [
+   "Steel nail",
+   "7317.00.55.20",
+   "Vietnam"
+  ],
+  [
+   "Steel nail",
+   "7317.00.55.20",
+   "Mexico"
+  ],
+  [
+   "Steel household pet bowl",
+   "7323.93.00.80",
+   "China"
+  ],
+  [
+   "Steel household pet bowl",
+   "7323.93.00.80",
+   "Vietnam"
+  ],
+  [
+   "Steel household pet bowl",
+   "7323.93.00.80",
+   "Mexico"
+  ],
+  [
+   "Steel pet cage",
+   "7326.20.00.90",
+   "China"
+  ],
+  [
+   "Steel pet cage",
+   "7326.20.00.90",
+   "Vietnam"
+  ],
+  [
+   "Steel pet cage",
+   "7326.20.00.90",
+   "Mexico"
+  ]
+ ],
+ "resolvable_by_rules": [
+  [
+   "Cast iron skillet",
+   "7323.91.50.40",
+   "China"
+  ],
+  [
+   "Cast iron skillet",
+   "7323.91.50.40",
+   "Vietnam"
+  ],
+  [
+   "Cast iron skillet",
+   "7323.91.50.40",
+   "Mexico"
+  ],
+  [
+   "Plastic colander",
+   "3924.10.40.00",
+   "Mexico"
+  ],
+  [
+   "Wood cutting board",
+   "4419.90.91.00",
+   "China"
+  ],
+  [
+   "Wood cutting board",
+   "4419.90.91.00",
+   "Vietnam"
+  ],
+  [
+   "Wood cutting board",
+   "4419.90.91.00",
+   "Mexico"
+  ],
+  [
+   "Plastic food container",
+   "3924.10.40.00",
+   "Mexico"
+  ],
+  [
+   "Plastic spatula",
+   "3924.10.40.00",
+   "Mexico"
+  ],
+  [
+   "Steel can opener",
+   "8210.00.00.00",
+   "China"
+  ],
+  [
+   "Steel can opener",
+   "8210.00.00.00",
+   "Mexico"
+  ],
+  [
+   "Steel corkscrew",
+   "8205.51.30.30",
+   "Vietnam"
+  ],
+  [
+   "Steel corkscrew",
+   "8205.51.30.30",
+   "Mexico"
+  ],
+  [
+   "Plastic ice cube tray",
+   "3924.10.40.00",
+   "Mexico"
+  ],
+  [
+   "Bamboo chopsticks",
+   "4419.12.00.00",
+   "China"
+  ],
+  [
+   "Bamboo chopsticks",
+   "4419.12.00.00",
+   "Vietnam"
+  ],
+  [
+   "Bamboo chopsticks",
+   "4419.12.00.00",
+   "Mexico"
+  ],
+  [
+   "Ceramic coffee mug",
+   "6912.00.44.00",
+   "Mexico"
+  ],
+  [
+   "Porcelain coffee cup",
+   "6911.10.45.00",
+   "Mexico"
+  ],
+  [
+   "Ceramic household plate",
+   "6912.00.48.10",
+   "Mexico"
+  ],
+  [
+   "Porcelain household plate",
+   "6911.10.80.10",
+   "China"
+  ],
+  [
+   "Porcelain household plate",
+   "6911.10.80.10",
+   "Mexico"
+  ],
+  [
+   "Ceramic household bowl",
+   "6912.00.48.10",
+   "Mexico"
+  ],
+  [
+   "Porcelain household bowl",
+   "6911.10.80.10",
+   "China"
+  ],
+  [
+   "Porcelain household bowl",
+   "6911.10.80.10",
+   "Mexico"
+  ],
+  [
+   "Glass drinking tumbler",
+   "7013.37.20.90",
+   "China"
+  ],
+  [
+   "Glass drinking tumbler",
+   "7013.37.20.90",
+   "Mexico"
+  ],
+  [
+   "Glass wine glass",
+   "7013.28.20.90",
+   "China"
+  ],
+  [
+   "Glass wine glass",
+   "7013.28.20.90",
+   "Mexico"
+  ],
+  [
+   "Glass beer mug",
+   "7013.37.20.90",
+   "China"
+  ],
+  [
+   "Glass beer mug",
+   "7013.37.20.90",
+   "Mexico"
+  ],
+  [
+   "Glass carafe",
+   "7013.49.60.90",
+   "China"
+  ],
+  [
+   "Glass carafe",
+   "7013.49.60.90",
+   "Mexico"
+  ],
+  [
+   "Glass household jar",
+   "7013.49.60.90",
+   "China"
+  ],
+  [
+   "Glass household jar",
+   "7013.49.60.90",
+   "Mexico"
+  ],
+  [
+   "Glass vase",
+   "7013.99.80.90",
+   "Mexico"
+  ],
+  [
+   "Ceramic vase",
+   "6913.90.50.00",
+   "China"
+  ],
+  [
+   "Ceramic vase",
+   "6913.90.50.00",
+   "Mexico"
+  ],
+  [
+   "Porcelain statuette",
+   "6913.10.50.00",
+   "China"
+  ],
+  [
+   "Porcelain statuette",
+   "6913.10.50.00",
+   "Mexico"
+  ],
+  [
+   "Ceramic household teapot",
+   "6912.00.48.10",
+   "Mexico"
+  ],
+  [
+   "Cotton t-shirt",
+   "6109.10.00.12",
+   "China"
+  ],
+  [
+   "Cotton t-shirt",
+   "6109.10.00.12",
+   "Mexico"
+  ],
+  [
+   "Cotton knitted sweater",
+   "6110.20.20.20",
+   "Mexico"
+  ],
+  [
+   "Wool knitted sweater",
+   "6110.11.00.30",
+   "Mexico"
+  ],
+  [
+   "Cotton trousers",
+   "6204.62.80.18",
+   "China"
+  ],
+  [
+   "Cotton trousers",
+   "6204.62.80.18",
+   "Mexico"
+  ],
+  [
+   "Cotton shorts",
+   "6203.42.45.51",
+   "China"
+  ],
+  [
+   "Cotton shorts",
+   "6203.42.45.51",
+   "Mexico"
+  ],
+  [
+   "Cotton knitted dress",
+   "6104.42.00.10",
+   "China"
+  ],
+  [
+   "Cotton knitted dress",
+   "6104.42.00.10",
+   "Mexico"
+  ],
+  [
+   "Cotton knitted skirt",
+   "6104.52.00.10",
+   "China"
+  ],
+  [
+   "Cotton knitted skirt",
+   "6104.52.00.10",
+   "Mexico"
+  ],
+  [
+   "Cotton socks",
+   "6115.95.90.00",
+   "China"
+  ],
+  [
+   "Cotton socks",
+   "6115.95.90.00",
+   "Mexico"
+  ],
+  [
+   "Cotton gloves",
+   "6116.92.88.00",
+   "China"
+  ],
+  [
+   "Cotton gloves",
+   "6116.92.88.00",
+   "Mexico"
+  ],
+  [
+   "Leather belt",
+   "4203.30.00.00",
+   "China"
+  ],
+  [
+   "Leather belt",
+   "4203.30.00.00",
+   "Mexico"
+  ],
+  [
+   "Cotton scarf",
+   "6214.90.00.10",
+   "China"
+  ],
+  [
+   "Cotton scarf",
+   "6214.90.00.10",
+   "Mexico"
+  ],
+  [
+   "Cotton handkerchief",
+   "6213.20.10.00",
+   "Mexico"
+  ],
+  [
+   "Rubber waterproof footwear",
+   "6401.92.90.60",
+   "China"
+  ],
+  [
+   "Rubber waterproof footwear",
+   "6401.92.90.60",
+   "Mexico"
+  ],
+  [
+   "Textile sports footwear",
+   "6404.11.90.50",
+   "China"
+  ],
+  [
+   "Textile sports footwear",
+   "6404.11.90.50",
+   "Mexico"
+  ],
+  [
+   "Textile backpack",
+   "4202.92.31.20",
+   "Mexico"
+  ],
+  [
+   "Leather handbag",
+   "4202.21.90.00",
+   "China"
+  ],
+  [
+   "Leather handbag",
+   "4202.21.90.00",
+   "Mexico"
+  ],
+  [
+   "Textile handbag",
+   "4202.22.81.00",
+   "Mexico"
+  ],
+  [
+   "Leather wallet",
+   "4202.31.60.00",
+   "China"
+  ],
+  [
+   "Leather wallet",
+   "4202.31.60.00",
+   "Mexico"
+  ],
+  [
+   "Plastic wallet",
+   "4202.39.10.00",
+   "China"
+  ],
+  [
+   "Plastic wallet",
+   "4202.39.10.00",
+   "Mexico"
+  ],
+  [
+   "Textile travel bag",
+   "4202.92.31.31",
+   "Mexico"
+  ],
+  [
+   "Leather travel bag",
+   "4202.91.90.30",
+   "China"
+  ],
+  [
+   "Leather travel bag",
+   "4202.91.90.30",
+   "Mexico"
+  ],
+  [
+   "Plastic suitcase",
+   "4202.12.21.20",
+   "China"
+  ],
+  [
+   "Plastic suitcase",
+   "4202.12.21.20",
+   "Mexico"
+  ],
+  [
+   "Textile suitcase",
+   "4202.12.81.70",
+   "China"
+  ],
+  [
+   "Textile suitcase",
+   "4202.12.81.70",
+   "Mexico"
+  ],
+  [
+   "Leather briefcase",
+   "4202.11.00.30",
+   "Mexico"
+  ],
+  [
+   "Plastic briefcase",
+   "4202.12.29.10",
+   "China"
+  ],
+  [
+   "Plastic briefcase",
+   "4202.12.29.10",
+   "Mexico"
+  ],
+  [
+   "Textile sports bag",
+   "4202.92.31.31",
+   "Mexico"
+  ],
+  [
+   "Textile insulated food bag",
+   "4202.92.08.07",
+   "China"
+  ],
+  [
+   "Textile insulated food bag",
+   "4202.92.08.07",
+   "Mexico"
+  ],
+  [
+   "Textile shopping bag",
+   "4202.92.31.31",
+   "Mexico"
+  ],
+  [
+   "Toy doll",
+   "9503.00.00.73",
+   "Mexico"
+  ],
+  [
+   "Toy stuffed animal",
+   "9503.00.00.73",
+   "Mexico"
+  ],
+  [
+   "Toy puzzle",
+   "9503.00.00.73",
+   "Mexico"
+  ],
+  [
+   "Toy playing cards",
+   "9504.40.00.00",
+   "Mexico"
+  ],
+  [
+   "Toy chess set",
+   "9504.90.60.00",
+   "Mexico"
+  ],
+  [
+   "Toy construction set",
+   "9503.00.00.73",
+   "Mexico"
+  ],
+  [
+   "Toy electric train",
+   "9503.00.00.73",
+   "Mexico"
+  ],
+  [
+   "Toy model car",
+   "9503.00.00.90",
+   "Mexico"
+  ],
+  [
+   "Toy tricycle",
+   "9503.00.00.73",
+   "Mexico"
+  ],
+  [
+   "Toy scooter",
+   "9503.00.00.73",
+   "Mexico"
+  ],
+  [
+   "Toy musical instrument",
+   "9503.00.00.73",
+   "Mexico"
+  ],
+  [
+   "Toy balloon",
+   "9503.00.00.90",
+   "Mexico"
+  ],
+  [
+   "Toy video game console",
+   "9504.50.00.00",
+   "Mexico"
+  ],
+  [
+   "Toy dice",
+   "9504.90.60.00",
+   "Mexico"
+  ],
+  [
+   "Plastic phone case",
+   "3926.90.99.89",
+   "Vietnam"
+  ],
+  [
+   "Plastic phone case",
+   "3926.90.99.89",
+   "Mexico"
+  ],
+  [
+   "Computer keyboard",
+   "8471.60.20.00",
+   "Vietnam"
+  ],
+  [
+   "Computer keyboard",
+   "8471.60.20.00",
+   "Mexico"
+  ],
+  [
+   "Computer mouse",
+   "8471.60.90.50",
+   "Vietnam"
+  ],
+  [
+   "Computer mouse",
+   "8471.60.90.50",
+   "Mexico"
+  ],
+  [
+   "Computer monitor",
+   "8528.52.00.00",
+   "China"
+  ],
+  [
+   "Computer monitor",
+   "8528.52.00.00",
+   "Vietnam"
+  ],
+  [
+   "Computer monitor",
+   "8528.52.00.00",
+   "Mexico"
+  ],
+  [
+   "Computer printer",
+   "8443.32.10.40",
+   "Vietnam"
+  ],
+  [
+   "Computer printer",
+   "8443.32.10.40",
+   "Mexico"
+  ],
+  [
+   "Computer scanner",
+   "8471.60.80.00",
+   "Vietnam"
+  ],
+  [
+   "Computer scanner",
+   "8471.60.80.00",
+   "Mexico"
+  ],
+  [
+   "Computer speaker",
+   "8518.22.00.00",
+   "Vietnam"
+  ],
+  [
+   "Computer speaker",
+   "8518.22.00.00",
+   "Mexico"
+  ],
+  [
+   "Computer headphones",
+   "8518.30.20.00",
+   "China"
+  ],
+  [
+   "Computer headphones",
+   "8518.30.20.00",
+   "Vietnam"
+  ],
+  [
+   "Computer headphones",
+   "8518.30.20.00",
+   "Mexico"
+  ],
+  [
+   "Electrical battery charger",
+   "8504.40.95.10",
+   "Vietnam"
+  ],
+  [
+   "Electrical battery charger",
+   "8504.40.95.10",
+   "Mexico"
+  ],
+  [
+   "Lithium ion battery",
+   "8507.60.00.90",
+   "China"
+  ],
+  [
+   "Lithium ion battery",
+   "8507.60.00.90",
+   "Vietnam"
+  ],
+  [
+   "Lithium ion battery",
+   "8507.60.00.90",
+   "Mexico"
+  ],
+  [
+   "Computer microphone",
+   "8518.10.80.30",
+   "China"
+  ],
+  [
+   "Computer microphone",
+   "8518.10.80.30",
+   "Vietnam"
+  ],
+  [
+   "Computer microphone",
+   "8518.10.80.30",
+   "Mexico"
+  ],
+  [
+   "Computer storage unit",
+   "8471.70.50.65",
+   "Vietnam"
+  ],
+  [
+   "Computer storage unit",
+   "8471.70.50.65",
+   "Mexico"
+  ],
+  [
+   "Computer webcam",
+   "8525.89.30.00",
+   "Mexico"
+  ],
+  [
+   "Household electric toaster",
+   "8516.72.00.00",
+   "Vietnam"
+  ],
+  [
+   "Household electric toaster",
+   "8516.72.00.00",
+   "Mexico"
+  ],
+  [
+   "Household electric kettle",
+   "8516.79.00.00",
+   "Vietnam"
+  ],
+  [
+   "Household electric kettle",
+   "8516.79.00.00",
+   "Mexico"
+  ],
+  [
+   "Household electric blender",
+   "8509.40.00.15",
+   "Mexico"
+  ],
+  [
+   "Household electric food mixer",
+   "8509.40.00.25",
+   "Mexico"
+  ],
+  [
+   "Household electric juicer",
+   "8509.40.00.30",
+   "Mexico"
+  ],
+  [
+   "Household microwave oven",
+   "8516.50.00.60",
+   "Vietnam"
+  ],
+  [
+   "Household microwave oven",
+   "8516.50.00.60",
+   "Mexico"
+  ],
+  [
+   "Household vacuum cleaner",
+   "8508.11.00.00",
+   "Mexico"
+  ],
+  [
+   "Household electric fan",
+   "8414.51.90.90",
+   "Vietnam"
+  ],
+  [
+   "Household electric fan",
+   "8414.51.90.90",
+   "Mexico"
+  ],
+  [
+   "Household electric iron",
+   "8516.40.40.00",
+   "Vietnam"
+  ],
+  [
+   "Household electric iron",
+   "8516.40.40.00",
+   "Mexico"
+  ],
+  [
+   "Household electric humidifier",
+   "8509.80.50.70",
+   "Mexico"
+  ],
+  [
+   "Integrated LED table lamp",
+   "9405.21.80.10",
+   "China"
+  ],
+  [
+   "Integrated LED table lamp",
+   "9405.21.80.10",
+   "Mexico"
+  ],
+  [
+   "Integrated LED floor lamp",
+   "9405.21.60.10",
+   "China"
+  ],
+  [
+   "Integrated LED floor lamp",
+   "9405.21.60.10",
+   "Mexico"
+  ],
+  [
+   "Integrated LED ceiling luminaire",
+   "9405.11.60.10",
+   "China"
+  ],
+  [
+   "Integrated LED ceiling luminaire",
+   "9405.11.60.10",
+   "Vietnam"
+  ],
+  [
+   "Integrated LED ceiling luminaire",
+   "9405.11.60.10",
+   "Mexico"
+  ],
+  [
+   "Integrated LED wall luminaire",
+   "9405.11.60.10",
+   "China"
+  ],
+  [
+   "Integrated LED wall luminaire",
+   "9405.11.60.10",
+   "Vietnam"
+  ],
+  [
+   "Integrated LED wall luminaire",
+   "9405.11.60.10",
+   "Mexico"
+  ],
+  [
+   "LED light bulb",
+   "8539.52.00.10",
+   "Mexico"
+  ],
+  [
+   "Incandescent light bulb",
+   "8539.22.80.40",
+   "Mexico"
+  ],
+  [
+   "Halogen light bulb",
+   "8539.21.40.40",
+   "China"
+  ],
+  [
+   "Halogen light bulb",
+   "8539.21.40.40",
+   "Mexico"
+  ],
+  [
+   "Fluorescent discharge lamp",
+   "8539.31.00.60",
+   "China"
+  ],
+  [
+   "Fluorescent discharge lamp",
+   "8539.31.00.60",
+   "Mexico"
+  ],
+  [
+   "Electric flashlight",
+   "8513.10.20.00",
+   "Mexico"
+  ],
+  [
+   "Non-electric oil lamp",
+   "9405.50.40.00",
+   "Mexico"
+  ],
+  [
+   "Non-electric candle luminaire",
+   "9405.50.40.00",
+   "Mexico"
+  ],
+  [
+   "Integrated LED chandelier",
+   "9405.11.60.10",
+   "China"
+  ],
+  [
+   "Integrated LED chandelier",
+   "9405.11.60.10",
+   "Vietnam"
+  ],
+  [
+   "Integrated LED chandelier",
+   "9405.11.60.10",
+   "Mexico"
+  ],
+  [
+   "Electric lighting fitting",
+   "9405.11.60.10",
+   "China"
+  ],
+  [
+   "Electric lighting fitting",
+   "9405.11.60.10",
+   "Vietnam"
+  ],
+  [
+   "Electric lighting fitting",
+   "9405.11.60.10",
+   "Mexico"
+  ],
+  [
+   "Electrical lamp holder",
+   "8536.61.00.00",
+   "China"
+  ],
+  [
+   "Electrical lamp holder",
+   "8536.61.00.00",
+   "Mexico"
+  ],
+  [
+   "Steel claw hammer",
+   "8205.20.30.00",
+   "China"
+  ],
+  [
+   "Steel claw hammer",
+   "8205.20.30.00",
+   "Mexico"
+  ],
+  [
+   "Steel hand-operated screwdriver",
+   "8205.40.00.00",
+   "Mexico"
+  ],
+  [
+   "Steel hand-operated wrench",
+   "8204.11.00.30",
+   "China"
+  ],
+  [
+   "Steel hand-operated wrench",
+   "8204.11.00.30",
+   "Mexico"
+  ],
+  [
+   "Steel hand-operated spade",
+   "8201.10.00.00",
+   "Vietnam"
+  ],
+  [
+   "Steel hand-operated spade",
+   "8201.10.00.00",
+   "Mexico"
+  ],
+  [
+   "Steel hand-operated shovel",
+   "8201.10.00.00",
+   "Vietnam"
+  ],
+  [
+   "Steel hand-operated shovel",
+   "8201.10.00.00",
+   "Mexico"
+  ],
+  [
+   "Steel hand-operated rake",
+   "8201.30.00.80",
+   "China"
+  ],
+  [
+   "Steel hand-operated rake",
+   "8201.30.00.80",
+   "Vietnam"
+  ],
+  [
+   "Steel hand-operated rake",
+   "8201.30.00.80",
+   "Mexico"
+  ],
+  [
+   "Steel hand-operated saw",
+   "8202.10.00.00",
+   "China"
+  ],
+  [
+   "Steel hand-operated saw",
+   "8202.10.00.00",
+   "Mexico"
+  ],
+  [
+   "Steel hand-operated file",
+   "8203.10.90.00",
+   "China"
+  ],
+  [
+   "Steel hand-operated file",
+   "8203.10.90.00",
+   "Mexico"
+  ],
+  [
+   "Steel padlock",
+   "8301.10.80.00",
+   "China"
+  ],
+  [
+   "Steel padlock",
+   "8301.10.80.00",
+   "Mexico"
+  ],
+  [
+   "Wood dining table",
+   "9403.60.80.40",
+   "China"
+  ],
+  [
+   "Wood dining table",
+   "9403.60.80.40",
+   "Vietnam"
+  ],
+  [
+   "Wood dining table",
+   "9403.60.80.40",
+   "Mexico"
+  ],
+  [
+   "Wood chair",
+   "9401.69.60.11",
+   "Vietnam"
+  ],
+  [
+   "Wood chair",
+   "9401.69.60.11",
+   "Mexico"
+  ],
+  [
+   "Wood bed",
+   "9403.50.90.45",
+   "China"
+  ],
+  [
+   "Wood bed",
+   "9403.50.90.45",
+   "Vietnam"
+  ],
+  [
+   "Wood bed",
+   "9403.50.90.45",
+   "Mexico"
+  ],
+  [
+   "Wood bookshelf",
+   "9403.60.80.93",
+   "China"
+  ],
+  [
+   "Wood bookshelf",
+   "9403.60.80.93",
+   "Vietnam"
+  ],
+  [
+   "Wood bookshelf",
+   "9403.60.80.93",
+   "Mexico"
+  ],
+  [
+   "Wood cabinet",
+   "9403.60.80.93",
+   "China"
+  ],
+  [
+   "Wood cabinet",
+   "9403.60.80.93",
+   "Vietnam"
+  ],
+  [
+   "Wood cabinet",
+   "9403.60.80.93",
+   "Mexico"
+  ],
+  [
+   "Metal chair",
+   "9401.79.00.46",
+   "Mexico"
+  ],
+  [
+   "Metal bed",
+   "9403.20.00.50",
+   "Vietnam"
+  ],
+  [
+   "Metal bed",
+   "9403.20.00.50",
+   "Mexico"
+  ],
+  [
+   "Plastic chair",
+   "9401.80.40.46",
+   "Mexico"
+  ],
+  [
+   "Glass mirror",
+   "7009.92.50.95",
+   "China"
+  ],
+  [
+   "Glass mirror",
+   "7009.92.50.95",
+   "Mexico"
+  ],
+  [
+   "Cotton cushion",
+   "9404.90.10.90",
+   "Mexico"
+  ],
+  [
+   "Cotton curtain",
+   "6303.91.00.10",
+   "China"
+  ],
+  [
+   "Cotton curtain",
+   "6303.91.00.10",
+   "Mexico"
+  ],
+  [
+   "Wool carpet",
+   "5703.10.80.00",
+   "China"
+  ],
+  [
+   "Wool carpet",
+   "5703.10.80.00",
+   "Mexico"
+  ],
+  [
+   "Wood picture frame",
+   "4414.90.00.00",
+   "China"
+  ],
+  [
+   "Wood picture frame",
+   "4414.90.00.00",
+   "Vietnam"
+  ],
+  [
+   "Wood picture frame",
+   "4414.90.00.00",
+   "Mexico"
+  ],
+  [
+   "Inflatable football",
+   "9506.62.40.40",
+   "China"
+  ],
+  [
+   "Inflatable football",
+   "9506.62.40.40",
+   "Mexico"
+  ],
+  [
+   "Inflatable basketball",
+   "9506.62.80.20",
+   "China"
+  ],
+  [
+   "Inflatable basketball",
+   "9506.62.80.20",
+   "Mexico"
+  ],
+  [
+   "Inflatable volleyball",
+   "9506.62.80.40",
+   "China"
+  ],
+  [
+   "Inflatable volleyball",
+   "9506.62.80.40",
+   "Mexico"
+  ],
+  [
+   "Tennis ball",
+   "9506.61.00.00",
+   "China"
+  ],
+  [
+   "Tennis ball",
+   "9506.61.00.00",
+   "Mexico"
+  ],
+  [
+   "Table tennis ball",
+   "9506.40.00.00",
+   "Mexico"
+  ],
+  [
+   "Tennis racket",
+   "9506.51.20.00",
+   "Mexico"
+  ],
+  [
+   "Badminton racket",
+   "9506.59.40.40",
+   "Mexico"
+  ],
+  [
+   "Table tennis racket",
+   "9506.40.00.00",
+   "Mexico"
+  ],
+  [
+   "Golf club",
+   "9506.31.00.00",
+   "China"
+  ],
+  [
+   "Golf club",
+   "9506.31.00.00",
+   "Mexico"
+  ],
+  [
+   "Golf ball",
+   "9506.32.00.00",
+   "China"
+  ],
+  [
+   "Golf ball",
+   "9506.32.00.00",
+   "Mexico"
+  ],
+  [
+   "Fishing rod",
+   "9507.10.00.40",
+   "Mexico"
+  ],
+  [
+   "Fishing reel",
+   "9507.30.60.00",
+   "Mexico"
+  ],
+  [
+   "Roller skate",
+   "9506.70.20.10",
+   "Mexico"
+  ],
+  [
+   "Ice skate",
+   "9506.70.40.00",
+   "Mexico"
+  ],
+  [
+   "Plastic hair slide",
+   "9615.11.40.00",
+   "Mexico"
+  ],
+  [
+   "Electric hair dryer",
+   "8516.31.00.00",
+   "Vietnam"
+  ],
+  [
+   "Electric hair dryer",
+   "8516.31.00.00",
+   "Mexico"
+  ],
+  [
+   "Electric hair clipper",
+   "8510.20.90.00",
+   "China"
+  ],
+  [
+   "Electric hair clipper",
+   "8510.20.90.00",
+   "Mexico"
+  ],
+  [
+   "Electric shaver",
+   "8510.10.00.00",
+   "China"
+  ],
+  [
+   "Electric shaver",
+   "8510.10.00.00",
+   "Mexico"
+  ],
+  [
+   "Steel nail clipper",
+   "8214.20.30.00",
+   "Mexico"
+  ],
+  [
+   "Steel tweezers",
+   "8203.20.20.00",
+   "Mexico"
+  ],
+  [
+   "Toothbrush",
+   "9603.21.00.00",
+   "China"
+  ],
+  [
+   "Toothbrush",
+   "9603.21.00.00",
+   "Vietnam"
+  ],
+  [
+   "Toothbrush",
+   "9603.21.00.00",
+   "Mexico"
+  ],
+  [
+   "Electric toothbrush",
+   "8509.80.50.45",
+   "Mexico"
+  ],
+  [
+   "Cosmetic brush",
+   "9603.30.60.00",
+   "China"
+  ],
+  [
+   "Cosmetic brush",
+   "9603.30.60.00",
+   "Vietnam"
+  ],
+  [
+   "Cosmetic brush",
+   "9603.30.60.00",
+   "Mexico"
+  ],
+  [
+   "Hand mirror",
+   "7009.92.10.90",
+   "China"
+  ],
+  [
+   "Hand mirror",
+   "7009.92.10.90",
+   "Mexico"
+  ],
+  [
+   "Plastic hair curler",
+   "8516.32.00.20",
+   "Vietnam"
+  ],
+  [
+   "Plastic hair curler",
+   "8516.32.00.20",
+   "Mexico"
+  ],
+  [
+   "Leather dog collar",
+   "4201.00.30.00",
+   "Mexico"
+  ],
+  [
+   "Textile dog collar",
+   "4201.00.30.00",
+   "Mexico"
+  ],
+  [
+   "Leather dog leash",
+   "4201.00.30.00",
+   "Mexico"
+  ],
+  [
+   "Textile dog leash",
+   "4201.00.30.00",
+   "Mexico"
+  ],
+  [
+   "Plastic household pet bowl",
+   "3924.90.56.50",
+   "Mexico"
+  ],
+  [
+   "Ceramic household pet bowl",
+   "6912.00.50.00",
+   "Mexico"
+  ],
+  [
+   "Textile pet bed",
+   "6307.90.98.91",
+   "Mexico"
+  ],
+  [
+   "Plastic pet carrier",
+   "3926.90.99.89",
+   "Vietnam"
+  ],
+  [
+   "Plastic pet carrier",
+   "3926.90.99.89",
+   "Mexico"
+  ],
+  [
+   "Rubber pet toy",
+   "4016.99.20.00",
+   "Mexico"
+  ],
+  [
+   "Plastic aquarium",
+   "3926.90.99.89",
+   "Vietnam"
+  ],
+  [
+   "Plastic aquarium",
+   "3926.90.99.89",
+   "Mexico"
+  ],
+  [
+   "Pet grooming brush",
+   "9603.90.80.50",
+   "Vietnam"
+  ],
+  [
+   "Pet grooming brush",
+   "9603.90.80.50",
+   "Mexico"
+  ],
+  [
+   "Felt tipped pen",
+   "9608.20.00.00",
+   "Mexico"
+  ],
+  [
+   "Propelling pencil",
+   "9608.40.40.00",
+   "China"
+  ],
+  [
+   "Propelling pencil",
+   "9608.40.40.00",
+   "Mexico"
+  ],
+  [
+   "Rubber eraser",
+   "4016.92.00.00",
+   "Mexico"
+  ],
+  [
+   "Paper notebook",
+   "4820.10.20.40",
+   "China"
+  ],
+  [
+   "Paper notebook",
+   "4820.10.20.40",
+   "Mexico"
+  ],
+  [
+   "Paper exercise book",
+   "4820.20.00.00",
+   "China"
+  ],
+  [
+   "Paper exercise book",
+   "4820.20.00.00",
+   "Mexico"
+  ],
+  [
+   "Paper envelope",
+   "4817.10.00.00",
+   "China"
+  ],
+  [
+   "Paper envelope",
+   "4817.10.00.00",
+   "Mexico"
+  ],
+  [
+   "Paper folder",
+   "4820.30.00.40",
+   "Mexico"
+  ],
+  [
+   "Steel paper clip",
+   "8305.90.30.10",
+   "Mexico"
+  ],
+  [
+   "Office stapler",
+   "8472.90.90.80",
+   "China"
+  ],
+  [
+   "Office stapler",
+   "8472.90.90.80",
+   "Mexico"
+  ],
+  [
+   "Plastic ruler",
+   "9017.80.00.00",
+   "Mexico"
+  ],
+  [
+   "Adhesive tape",
+   "3919.10.20.30",
+   "Mexico"
+  ]
+ ],
+ "232_metal_content + quantity_or_unpriced": [
+  [
+   "Stainless steel kitchen knife",
+   "8211.92.20.00",
+   "China"
+  ],
+  [
+   "Stainless steel kitchen knife",
+   "8211.92.20.00",
+   "Vietnam"
+  ],
+  [
+   "Stainless steel kitchen knife",
+   "8211.92.20.00",
+   "Mexico"
+  ],
+  [
+   "Stainless steel fork",
+   "8215.99.15.00",
+   "China"
+  ],
+  [
+   "Stainless steel fork",
+   "8215.99.15.00",
+   "Vietnam"
+  ],
+  [
+   "Stainless steel fork",
+   "8215.99.15.00",
+   "Mexico"
+  ]
+ ],
+ "232_metal_content + other_alt:9903.88.28:exemption + other_alt:9903.88.53:exemption": [
+  [
+   "Stainless steel spoon",
+   "8215.99.35.00",
+   "China"
+  ]
+ ],
+ "other_alt:9903.88.28:exemption + other_alt:9903.88.46:exemption": [
+  [
+   "Steel corkscrew",
+   "8205.51.30.30",
+   "China"
+  ],
+  [
+   "Steel hand-operated screwdriver",
+   "8205.40.00.00",
+   "China"
+  ],
+  [
+   "Plastic ruler",
+   "9017.80.00.00",
+   "China"
+  ]
+ ],
+ "other_alt:9903.88.28:exemption": [
+  [
+   "Cotton knitted sweater",
+   "6110.20.20.20",
+   "China"
+  ],
+  [
+   "Wool knitted sweater",
+   "6110.11.00.30",
+   "China"
+  ],
+  [
+   "Plastic phone case",
+   "3926.90.99.89",
+   "China"
+  ],
+  [
+   "Computer webcam",
+   "8525.89.30.00",
+   "China"
+  ],
+  [
+   "Cotton cushion",
+   "9404.90.10.90",
+   "China"
+  ],
+  [
+   "Steel tweezers",
+   "8203.20.20.00",
+   "China"
+  ],
+  [
+   "Plastic pet carrier",
+   "3926.90.99.89",
+   "China"
+  ],
+  [
+   "Plastic aquarium",
+   "3926.90.99.89",
+   "China"
+  ]
+ ],
+ "other_alt:9903.27.08:in_lieu + other_alt:9903.41.10:in_lieu": [
+  [
+   "Leather sports footwear",
+   "6403.99.90.31",
+   "China"
+  ],
+  [
+   "Leather sports footwear",
+   "6403.99.90.31",
+   "Vietnam"
+  ],
+  [
+   "Leather sports footwear",
+   "6403.99.90.31",
+   "Mexico"
+  ]
+ ],
+ "other_alt:9903.88.28:exemption + other_alt:9903.88.43:exemption + other_alt:9903.88.45:exemption + other_alt:9903.88.46:exemption": [
+  [
+   "Textile backpack",
+   "4202.92.31.20",
+   "China"
+  ]
+ ],
+ "other_alt:9903.08.07:in_lieu + other_alt:9903.88.28:exemption + other_alt:9903.88.48:exemption": [
+  [
+   "Plastic handbag",
+   "4202.22.15.00",
+   "China"
+  ]
+ ],
+ "other_alt:9903.08.07:in_lieu": [
+  [
+   "Plastic handbag",
+   "4202.22.15.00",
+   "Vietnam"
+  ],
+  [
+   "Plastic handbag",
+   "4202.22.15.00",
+   "Mexico"
+  ]
+ ],
+ "other_alt:9903.88.28:exemption + other_alt:9903.88.38:exemption": [
+  [
+   "Textile handbag",
+   "4202.22.81.00",
+   "China"
+  ]
+ ],
+ "other_alt:9903.88.28:exemption + other_alt:9903.88.40:exemption + other_alt:9903.88.43:exemption + other_alt:9903.88.45:exemption + other_alt:9903.88.46:exemption + other_alt:9903.88.48:exemption": [
+  [
+   "Textile travel bag",
+   "4202.92.31.31",
+   "China"
+  ],
+  [
+   "Textile sports bag",
+   "4202.92.31.31",
+   "China"
+  ],
+  [
+   "Textile shopping bag",
+   "4202.92.31.31",
+   "China"
+  ]
+ ],
+ "other_alt:9903.88.28:exemption + other_alt:9903.88.37:exemption": [
+  [
+   "Leather briefcase",
+   "4202.11.00.30",
+   "China"
+  ]
+ ],
+ "other_alt:9903.88.18:exemption + other_alt:9903.88.28:exemption": [
+  [
+   "Computer keyboard",
+   "8471.60.20.00",
+   "China"
+  ],
+  [
+   "Computer mouse",
+   "8471.60.90.50",
+   "China"
+  ],
+  [
+   "Computer storage unit",
+   "8471.70.50.65",
+   "China"
+  ]
+ ],
+ "other_alt:9903.88.14:exemption + other_alt:9903.88.19:exemption + other_alt:9903.88.28:exemption": [
+  [
+   "Computer printer",
+   "8443.32.10.40",
+   "China"
+  ]
+ ],
+ "other_alt:9903.88.18:exemption + other_alt:9903.88.28:exemption + other_alt:9903.88.55:exemption": [
+  [
+   "Computer scanner",
+   "8471.60.80.00",
+   "China"
+  ]
+ ],
+ "other_alt:9903.88.28:exemption + other_alt:9903.88.53:exemption": [
+  [
+   "Computer speaker",
+   "8518.22.00.00",
+   "China"
+  ],
+  [
+   "Ice skate",
+   "9506.70.40.00",
+   "China"
+  ],
+  [
+   "Felt tipped pen",
+   "9608.20.00.00",
+   "China"
+  ]
+ ],
+ "232_metal_content + other_alt:9903.88.28:exemption + other_alt:9903.88.37:exemption + other_alt:9903.88.38:exemption + other_alt:9903.88.40:exemption + other_alt:9903.88.43:exemption + other_alt:9903.88.45:exemption + other_alt:9903.88.46:exemption": [
+  [
+   "USB cable",
+   "8544.42.90.90",
+   "China"
+  ]
+ ],
+ "other_alt:9903.88.10:exemption": [
+  [
+   "Electrical battery charger",
+   "8504.40.95.10",
+   "China"
+  ]
+ ],
+ "other_alt:9903.88.12:exemption": [
+  [
+   "Household electric toaster",
+   "8516.72.00.00",
+   "China"
+  ],
+  [
+   "Household electric kettle",
+   "8516.79.00.00",
+   "China"
+  ],
+  [
+   "Household microwave oven",
+   "8516.50.00.60",
+   "China"
+  ],
+  [
+   "Household electric iron",
+   "8516.40.40.00",
+   "China"
+  ],
+  [
+   "Electric hair dryer",
+   "8516.31.00.00",
+   "China"
+  ],
+  [
+   "Plastic hair curler",
+   "8516.32.00.20",
+   "China"
+  ]
+ ],
+ "other_alt:9903.08.15:in_lieu + other_alt:9903.88.12:exemption": [
+  [
+   "Household electric coffee maker",
+   "8516.71.00.60",
+   "China"
+  ]
+ ],
+ "other_alt:9903.08.15:in_lieu": [
+  [
+   "Household electric coffee maker",
+   "8516.71.00.60",
+   "Vietnam"
+  ],
+  [
+   "Household electric coffee maker",
+   "8516.71.00.60",
+   "Mexico"
+  ]
+ ],
+ "232_metal_content + other_alt:9903.88.12:exemption": [
+  [
+   "Household electric rice cooker",
+   "8516.60.60.00",
+   "China"
+  ]
+ ],
+ "232_metal_content + other_alt:9903.88.12:exemption + other_alt:9903.88.28:exemption + other_alt:9903.88.45:exemption": [
+  [
+   "Household electric oven",
+   "8516.60.40.70",
+   "China"
+  ],
+  [
+   "Household electric heater",
+   "8516.29.00.30",
+   "China"
+  ]
+ ],
+ "other_alt:9903.88.28:exemption + other_alt:9903.88.35:exemption + other_alt:9903.88.45:exemption": [
+  [
+   "Household vacuum cleaner",
+   "8508.11.00.00",
+   "China"
+  ]
+ ],
+ "other_alt:9903.88.18:exemption": [
+  [
+   "Household electric fan",
+   "8414.51.90.90",
+   "China"
+  ]
+ ],
+ "other_alt:9903.88.18:exemption + other_alt:9903.88.28:exemption + other_alt:9903.88.36:exemption": [
+  [
+   "Non-electric oil lamp",
+   "9405.50.40.00",
+   "China"
+  ],
+  [
+   "Non-electric candle luminaire",
+   "9405.50.40.00",
+   "China"
+  ]
+ ],
+ "other_alt:9903.88.28:exemption + other_alt:9903.88.34:exemption + quantity_or_unpriced": [
+  [
+   "Steel hand-operated pliers",
+   "8203.20.60.30",
+   "China"
+  ]
+ ],
+ "quantity_or_unpriced": [
+  [
+   "Steel hand-operated pliers",
+   "8203.20.60.30",
+   "Vietnam"
+  ],
+  [
+   "Steel hand-operated pliers",
+   "8203.20.60.30",
+   "Mexico"
+  ],
+  [
+   "Steel hand-operated scissors",
+   "8213.00.90.00",
+   "China"
+  ],
+  [
+   "Steel hand-operated scissors",
+   "8213.00.90.00",
+   "Vietnam"
+  ],
+  [
+   "Steel hand-operated scissors",
+   "8213.00.90.00",
+   "Mexico"
+  ],
+  [
+   "Plastic hair comb",
+   "9615.11.30.00",
+   "China"
+  ],
+  [
+   "Plastic hair comb",
+   "9615.11.30.00",
+   "Vietnam"
+  ],
+  [
+   "Plastic hair comb",
+   "9615.11.30.00",
+   "Mexico"
+  ],
+  [
+   "Natural bristle hair brush",
+   "9603.29.80.10",
+   "China"
+  ],
+  [
+   "Natural bristle hair brush",
+   "9603.29.80.10",
+   "Vietnam"
+  ],
+  [
+   "Natural bristle hair brush",
+   "9603.29.80.10",
+   "Mexico"
+  ],
+  [
+   "Steel manicure scissors",
+   "8213.00.90.00",
+   "China"
+  ],
+  [
+   "Steel manicure scissors",
+   "8213.00.90.00",
+   "Vietnam"
+  ],
+  [
+   "Steel manicure scissors",
+   "8213.00.90.00",
+   "Mexico"
+  ],
+  [
+   "Ballpoint pen",
+   "9608.10.00.00",
+   "China"
+  ],
+  [
+   "Ballpoint pen",
+   "9608.10.00.00",
+   "Vietnam"
+  ],
+  [
+   "Ballpoint pen",
+   "9608.10.00.00",
+   "Mexico"
+  ],
+  [
+   "Lead pencil",
+   "9609.10.00.00",
+   "China"
+  ],
+  [
+   "Lead pencil",
+   "9609.10.00.00",
+   "Vietnam"
+  ],
+  [
+   "Lead pencil",
+   "9609.10.00.00",
+   "Mexico"
+  ],
+  [
+   "Pencil sharpener",
+   "8214.10.00.00",
+   "China"
+  ],
+  [
+   "Pencil sharpener",
+   "8214.10.00.00",
+   "Vietnam"
+  ],
+  [
+   "Pencil sharpener",
+   "8214.10.00.00",
+   "Mexico"
+  ]
+ ],
+ "other_alt:9903.88.28:exemption + other_alt:9903.88.40:exemption": [
+  [
+   "Steel hand-operated spade",
+   "8201.10.00.00",
+   "China"
+  ],
+  [
+   "Steel hand-operated shovel",
+   "8201.10.00.00",
+   "China"
+  ]
+ ],
+ "other_alt:9903.88.28:exemption + other_alt:9903.88.38:exemption + other_alt:9903.88.51:exemption": [
+  [
+   "Wood chair",
+   "9401.69.60.11",
+   "China"
+  ],
+  [
+   "Metal chair",
+   "9401.79.00.46",
+   "China"
+  ],
+  [
+   "Plastic chair",
+   "9401.80.40.46",
+   "China"
+  ]
+ ],
+ "other_alt:9903.88.28:exemption + other_alt:9903.88.34:exemption + other_alt:9903.88.35:exemption + other_alt:9903.88.38:exemption + other_alt:9903.88.46:exemption": [
+  [
+   "Metal bed",
+   "9403.20.00.50",
+   "China"
+  ]
+ ],
+ "other_alt:9903.08.13:in_lieu + other_alt:9903.88.28:exemption": [
+  [
+   "Cotton bed linen",
+   "6302.21.90.20",
+   "China"
+  ]
+ ],
+ "other_alt:9903.08.13:in_lieu": [
+  [
+   "Cotton bed linen",
+   "6302.21.90.20",
+   "Vietnam"
+  ],
+  [
+   "Cotton bed linen",
+   "6302.21.90.20",
+   "Mexico"
+  ]
+ ],
+ "other_alt:9903.88.28:exemption + other_alt:9903.88.51:exemption": [
+  [
+   "Fishing reel",
+   "9507.30.60.00",
+   "China"
+  ]
+ ],
+ "other_alt:9903.88.18:exemption + other_alt:9903.88.28:exemption + other_alt:9903.88.34:exemption": [
+  [
+   "Leather dog collar",
+   "4201.00.30.00",
+   "China"
+  ],
+  [
+   "Textile dog collar",
+   "4201.00.30.00",
+   "China"
+  ],
+  [
+   "Leather dog leash",
+   "4201.00.30.00",
+   "China"
+  ],
+  [
+   "Textile dog leash",
+   "4201.00.30.00",
+   "China"
+  ]
+ ],
+ "other_alt:9903.88.28:exemption + other_alt:9903.88.49:exemption + other_alt:9903.88.51:exemption + other_alt:9903.88.53:exemption": [
+  [
+   "Plastic household pet bowl",
+   "3924.90.56.50",
+   "China"
+  ]
+ ],
+ "other_alt:9903.88.28:exemption + other_alt:9903.88.42:exemption + other_alt:9903.88.44:exemption + other_alt:9903.88.49:exemption + other_alt:9903.88.51:exemption + other_alt:9903.88.53:exemption + other_alt:9903.88.66:exemption + other_alt:9903.88.68:exemption": [
+  [
+   "Textile pet bed",
+   "6307.90.98.91",
+   "China"
+  ]
+ ],
+ "other_alt:9903.45.30:in_lieu + other_alt:9903.45.31:in_lieu + other_alt:9903.88.28:exemption + other_alt:9903.88.38:exemption": [
+  [
+   "Glass aquarium",
+   "7020.00.60.00",
+   "China"
+  ]
+ ],
+ "other_alt:9903.45.30:in_lieu + other_alt:9903.45.31:in_lieu": [
+  [
+   "Glass aquarium",
+   "7020.00.60.00",
+   "Vietnam"
+  ],
+  [
+   "Glass aquarium",
+   "7020.00.60.00",
+   "Mexico"
+  ]
+ ],
+ "other_alt:9903.88.28:exemption + other_alt:9903.88.49:exemption + other_alt:9903.88.53:exemption": [
+  [
+   "Pet grooming brush",
+   "9603.90.80.50",
+   "China"
+  ]
+ ],
+ "other_alt:9903.88.28:exemption + other_alt:9903.88.45:exemption": [
+  [
+   "Paper folder",
+   "4820.30.00.40",
+   "China"
+  ]
+ ],
+ "other_alt:9903.88.17:exemption + other_alt:9903.88.28:exemption": [
+  [
+   "Adhesive tape",
+   "3919.10.20.30",
+   "China"
+  ]
+ ]
+}

@@ -1,0 +1,3 @@
+Diego 3:17 PM CT 2026-10-31: 97 supported products, 291 tariff pages, 103 exclusions.
+Breakdown: 72 unresolved duty combinations, 9 quantity-dependent rates, 16 ambiguous classifications, 6 unsupported product identities.
+Full per-product list with HTS lines is in Diego's release report (not yet posted in chat).
