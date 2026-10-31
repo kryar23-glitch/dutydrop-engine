@@ -15159,7 +15159,7 @@
   ],
   "category": "garden",
   "default_assumption": "Assumes earthenware or stoneware, not porcelain.",
-  "hts10": "6912.00.50.00",
+  "hts10": "6914.90.80.00",
   "id": "ceramic-planter",
   "source_file": "tools_auto_garden.jsonl",
   "term": "ceramic planter",
@@ -18927,11 +18927,16 @@
    }
   ],
   "default_assumption": "Assumes steel.",
-  "hts10": "3926.90.99.89",
+  "hts10": "7323.99.90.80",
   "id": "compost-bin",
   "source_file": "kitchen_home_furniture.jsonl",
   "term": "compost bin",
   "variants": [
+   {
+    "hts10": "3926.90.99.89",
+    "note": "Plastic compost bin.",
+    "when": "plastic"
+   },
    {
     "hts10": "7323.93.00.80",
     "note": "Stainless household or tableware",
@@ -22624,6 +22629,16 @@
   "term": "desk",
   "variants": [
    {
+    "hts10": "9403.30.80.90",
+    "note": "Wooden furniture of a kind used in offices.",
+    "when": "office desk"
+   },
+   {
+    "hts10": "9403.30.80.90",
+    "note": "Wooden furniture of a kind used in offices.",
+    "when": "computer desk"
+   },
+   {
     "hts10": "9403.10.00.40",
     "note": "Metal office furniture",
     "when": "metal frame dominates"
@@ -24681,6 +24696,11 @@
   "source_file": "kitchen_home_furniture.jsonl",
   "term": "doormat",
   "variants": [
+   {
+    "hts10": "5702.20.20.00",
+    "note": "Coir (coconut fiber) floor covering.",
+    "when": "coir"
+   },
    {
     "hts10": "4016.91.00.00",
     "note": "Rubber mat",
@@ -35591,11 +35611,16 @@
    }
   ],
   "default_assumption": "Assumes metal clip.",
-  "hts10": "9615.11.40.00",
+  "hts10": "9615.19.60.00",
   "id": "hair-clip",
   "source_file": "apparel_footwear_accessories.jsonl",
   "term": "hair clip",
   "variants": [
+   {
+    "hts10": "9615.11.40.00",
+    "note": "Plastic or hard rubber clip, not set with imitation pearls or stones.",
+    "when": "plastic"
+   },
    {
     "hts10": "9615.11.40.00",
     "note": "Combs, hair-slides and the like > Of hard rubber or plastics > Not set with imitation pearls or imitation gemstones (5.3%)",
@@ -47436,11 +47461,16 @@
    }
   ],
   "default_assumption": "Assumes paperboard office storage.",
-  "hts10": "3926.10.00.00",
+  "hts10": "4819.60.00.00",
   "id": "magazine-holder",
   "source_file": "beauty_office_packaging_misc.jsonl",
   "term": "magazine holder",
   "variants": [
+   {
+    "hts10": "3926.10.00.00",
+    "note": "Plastic office supply.",
+    "when": "plastic"
+   },
    {
     "hts10": "3926.10.00.00",
     "note": "Plastic magazine file",
@@ -55913,6 +55943,11 @@
   "term": "electric patio heater",
   "variants": [
    {
+    "hts10": "8516.29.00.90",
+    "note": "Electric space heater; heading 7321 excludes electric apparatus.",
+    "when": "electric"
+   },
+   {
     "hts10": "7321.81.10.00",
     "note": "Verify gas heaters",
     "when": "propane"
@@ -57646,7 +57681,7 @@
   ],
   "category": "sports",
   "default_assumption": "Assumes solid-face paddle.",
-  "hts10": "9506.99.60.80",
+  "hts10": "9506.59.80.60",
   "id": "pickleball-paddle",
   "notes": "Line choice varies; both candidate lines are 4%.",
   "source_file": "toys_sports_baby_pet.jsonl",
@@ -58606,11 +58641,16 @@
    }
   ],
   "default_assumption": "Assumes ceramic (glazed stoneware) planter.",
-  "hts10": "3924.90.56.50",
+  "hts10": "6914.90.80.00",
   "id": "planter",
   "source_file": "kitchen_home_furniture.jsonl",
   "term": "planter",
   "variants": [
+   {
+    "hts10": "3924.90.56.50",
+    "note": "Plastic household article.",
+    "when": "plastic"
+   },
    {
     "hts10": "6912.00.50.00",
     "note": "Other ceramic",

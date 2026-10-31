@@ -5,3 +5,11 @@
 {"id": "dutch-oven", "when": "enamel cast iron", "hts10": "7323.92.00.40", "note": "Enameled cast iron."}
 {"id": "jewelry-box", "when": "wood unlined", "hts10": "4420.90.45.00", "note": "Wood, not lined with textile."}
 {"id": "jewelry-box", "when": "wood", "hts10": "4420.90.65.00", "note": "Assumes wood lined with textile fabric."}
+{"id": "compost-bin", "when": "plastic", "hts10": "3926.90.99.89", "note": "Plastic compost bin."}
+{"id": "hair-clip", "when": "plastic", "hts10": "9615.11.40.00", "note": "Plastic or hard rubber clip, not set with imitation pearls or stones."}
+{"id": "magazine-holder", "when": "plastic", "hts10": "3926.10.00.00", "note": "Plastic office supply."}
+{"id": "planter", "when": "plastic", "hts10": "3924.90.56.50", "note": "Plastic household article."}
+{"id": "patio-heater", "when": "electric", "hts10": "8516.29.00.90", "note": "Electric space heater; heading 7321 excludes electric apparatus."}
+{"id": "doormat", "when": "coir", "hts10": "5702.20.20.00", "note": "Coir (coconut fiber) floor covering."}
+{"id": "desk", "when": "computer desk", "hts10": "9403.30.80.90", "note": "Wooden furniture of a kind used in offices."}
+{"id": "desk", "when": "office desk", "hts10": "9403.30.80.90", "note": "Wooden furniture of a kind used in offices."}

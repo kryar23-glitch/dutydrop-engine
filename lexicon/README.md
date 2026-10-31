@@ -22,7 +22,7 @@ Every main code and every variant code has been checked: each one is a Statistic
 |---|---|
 | The 200 curated SEO products (`eval/diego200.txt`) | 200 of 200 resolve to an HTS line. Line by line in `eval/diego200_results.csv` |
 | Seller-style query set (`eval/eval_set.csv`, 211 queries, 6 digit check) | 210 of 211 |
-| Blind set: 300 queries written by a separate agent that never saw the dictionary (`eval/blind_set.csv`) | 277 of 300 (92%) on first run (`eval/blind_report.txt`). After fixing the matcher bugs it exposed: 293 of 300 (`eval/blind_report_after_fixes.txt`). Of the 7 left, 5 are judgment calls a broker should settle: pickleball paddle, infant car seat, terracotta and glazed planters, coir doormat |
+| Blind set: 300 queries written by a separate agent that never saw the dictionary (`eval/blind_set.csv`) | 277 of 300 (92%) on first run (`eval/blind_report.txt`). After fixing the matcher bugs it exposed: 293 of 300 (`eval/blind_report_after_fixes.txt`). After James's code review (126 lines, decisions applied in patches/): 300 of 300 (`eval/blind_report_after_review.txt`); two blind answers were overridden by his rulings (infant car seat 9401.80, flannel pajama pants 6207.91) |
 
 Speed: under 1 ms per query in Python and in Node. Loading takes about 1.5 s, so load once at startup.
 
