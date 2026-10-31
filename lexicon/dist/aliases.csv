@@ -7570,6 +7570,8 @@ ceramic coated frying pan,frying-pan,alias
 ceramic coated frying pans,frying-pan,plural
 ceramic coffee cup,ceramic-mug,alias
 ceramic coffee cups,ceramic-mug,plural
+ceramic coffee pot,teapot,alias
+ceramic coffee pots,teapot,plural
 ceramic cookware set,cookware-set,alias
 ceramic cookware sets,cookware-set,plural
 ceramic flat iron,hair-straightener,alias
@@ -8947,8 +8949,8 @@ coffee pod carousel,k-cup-holder,alias
 coffee pod carousels,k-cup-holder,plural
 coffee pod holder,k-cup-holder,alias
 coffee pod holders,k-cup-holder,plural
-coffee pot,coffee-maker,alias
-coffee pots,coffee-maker,plural
+coffee pot,teapot,alias
+coffee pots,teapot,plural
 coffee press,french-press,alias
 coffee presses,french-press,plural
 coffee scale,kitchen-scale,alias
@@ -8957,6 +8959,8 @@ coffee scoop,coffee-scoop,term
 coffee scoops,coffee-scoop,plural
 coffee scrub,body-scrub,alias
 coffee scrubs,body-scrub,plural
+coffee server,teapot,alias
+coffee servers,teapot,plural
 coffee spoon,table-spoon,alias
 coffee spoon scoop,coffee-scoop,alias
 coffee spoon scoops,coffee-scoop,plural

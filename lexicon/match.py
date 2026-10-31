@@ -70,6 +70,10 @@ VSTOP = {"or", "and", "with", "other", "only", "of", "for", "by", "in", "on", "t
          "material", "part", "over", "under", "less", "more", "to", "per", "valued", "cents", "dozen", "up", "w", "kw",
          "va", "g", "cm", "mm", "inch", "liters", "years", "sizes", "size", "made", "well"}
 NEG = {"not", "no", "without", "non"}
+NONELECTRIC = {"ceramic", "porcelain", "stoneware", "earthenware", "glass", "wood", "wooden", "bamboo", "enamel", "enameled",
+               "terracotta", "clay"}
+POWERCUE = {"electric", "electrical", "electronic", "plug", "plugin", "cordless", "rechargeable", "usb", "battery",
+            "powered", "watt", "watts", "automatic", "smart", "digital", "heated", "heating", "motor", "machine"}
 PARTWORDS = {"frame", "base", "top", "leg", "finish", "handle", "sole", "upper", "lining", "shell", "body", "strap",
              "band", "lid", "cover", "construction", "seat", "back", "trim", "tip", "blade", "head"}
 PREP = {"with", "for", "from", "in", "to", "by", "compatible", "fits", "fit", "made", "includes", "including"}
@@ -318,6 +322,11 @@ class Matcher:
                     if s > scores[eid]:
                         scores[eid] = s
                     hits[eid].append(phrase)
+        # a non-electric material with no power cue means a houseware, not an appliance
+        if set(words) & NONELECTRIC and not set(words) & POWERCUE:
+            for eid in list(scores):
+                if self.entries[eid].get("category") in ("appliances", "electronics"):
+                    scores[eid] -= 4
         if not scores:
             return {"input": text, "normalized": t, "confidence": "none"}
         ranked = sorted(scores.items(), key=lambda kv: (-kv[1], kv[0]))  # score, then id for stable ties

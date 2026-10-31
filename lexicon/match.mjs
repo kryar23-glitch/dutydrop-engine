@@ -37,6 +37,10 @@ const SOFT = new Set(["upper", "sole", "genuine", "collapsible", "natural", "sol
   "woven", "textile", "molded", "moulded", "wickerwork", "fine", "quality", "body", "outer", "soft", "sided",
   "hard", "structured", "surface", "sheeting", "rigid", "plain", "regular", "standard", "household", "blue", "black",
   "colored", "waterproof", "mesh", "covering", "power", "loomed", "machine", "made"]);
+const NONELECTRIC = new Set(["ceramic", "porcelain", "stoneware", "earthenware", "glass", "wood", "wooden", "bamboo", "enamel",
+  "enameled", "terracotta", "clay"]);
+const POWERCUE = new Set(["electric", "electrical", "electronic", "plug", "plugin", "cordless", "rechargeable", "usb", "battery",
+  "powered", "watt", "watts", "automatic", "smart", "digital", "heated", "heating", "motor", "machine"]);
 const PARTWORDS = new Set(["frame", "base", "top", "leg", "finish", "handle", "sole", "upper", "lining", "shell", "body", "strap",
   "band", "lid", "cover", "construction", "seat", "back", "trim", "tip", "blade", "head"]);
 const MATFALL = {
@@ -321,6 +325,13 @@ export class Matcher {
           if (!hits.has(eid)) hits.set(eid, []);
           hits.get(eid).push(phrase);
         }
+      }
+    }
+    // a non-electric material with no power cue means a houseware, not an appliance
+    if (ws.some((w) => NONELECTRIC.has(w)) && !ws.some((w) => POWERCUE.has(w))) {
+      for (const [eid, s] of scores) {
+        const c = this.entries[eid].category;
+        if (c === "appliances" || c === "electronics") scores.set(eid, s - 4);
       }
     }
     if (!scores.size) return { input: text, normalized: t, confidence: "none" };

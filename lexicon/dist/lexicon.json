@@ -18120,7 +18120,6 @@
    "capsule coffee machine",
    "coffee brewer",
    "coffee machine",
-   "coffee pot",
    "cold brew coffee maker electric",
    "cuisinart coffee maker",
    "delonghi espresso",
@@ -76750,15 +76749,18 @@
  },
  "teapot": {
   "aliases": [
-   "tea pot",
-   "ceramic teapot",
-   "teapot with infuser",
-   "glass teapot",
    "cast iron teapot",
-   "tetsubin",
-   "tea set",
+   "ceramic coffee pot",
+   "ceramic teapot",
+   "chai pot",
+   "coffee pot",
+   "coffee server",
+   "glass teapot",
+   "tea pot",
    "tea service",
-   "chai pot"
+   "tea set",
+   "teapot with infuser",
+   "tetsubin"
   ],
   "attributes_words": [
    "teapot",
