@@ -180,6 +180,9 @@ def _pick_variant(entry, toks):
     vs = entry.get("variants") or []
     if not vs:
         return None
+    # the product's own name words ("desk" in "office desk") never confirm a descriptor on their own
+    name = {w for w in entry["term"].lower().split() if cat(w) == "d"}
+    name |= {sg(w) for w in name}
     text_cats = {cat(x) for x in toks}
     # attributes implied by the default line, used for categories the text does not state
     fill = {}
@@ -206,7 +209,7 @@ def _pick_variant(entry, toks):
                 from_text += 1
                 total += 1
                 covered |= alts & toks
-                if c == "d" and not alts & SOFT:
+                if c == "d" and not alts & SOFT and not alts <= name:
                     desc_hit += 1
             elif c in fill and alts & fill[c]:
                 total += 1

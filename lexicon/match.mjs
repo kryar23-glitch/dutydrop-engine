@@ -156,9 +156,13 @@ function cmpKey(a, b) { // lexicographic compare of [from_text, -missing, total,
   return 0;
 }
 
-function pickVariantInner(entry, toks) {
+function pickVariantInner(entry, toksIn) {
   const vs = entry.variants || [];
   if (!vs.length) return null;
+  // the product's own name words ("desk" in "office desk") never count as a stated attribute
+  const termWords = entry.term.toLowerCase().split(/\s+/).filter((w) => cat(w) === "d");
+  const name = new Set([...termWords, ...termWords.map(sg)]);
+  const toks = toksIn;
   const textCats = new Set([...toks].map(cat));
   const fill = {};
   for (const v of vs) {
@@ -182,7 +186,7 @@ function pickVariantInner(entry, toks) {
       if (intersects(g.alts, toks)) {
         fromText++; total++;
         for (const a of g.alts) if (toks.has(a)) covered.add(a);
-        if (g.c === "d" && !intersects(g.alts, SOFT)) descHit++;
+        if (g.c === "d" && !intersects(g.alts, SOFT) && ![...g.alts].every((x) => name.has(x))) descHit++;
       } else if (fill[g.c] && intersects(g.alts, fill[g.c])) { total++; }
       else if (g.c === "d" && intersects(g.alts, SOFT)) { missing++; }
       else if (g.c === "d" && hasKey) { hardMiss++; }

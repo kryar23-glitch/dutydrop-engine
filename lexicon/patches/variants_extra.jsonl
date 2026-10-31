@@ -11,5 +11,6 @@
 {"id": "planter", "when": "plastic", "hts10": "3924.90.56.50", "note": "Plastic household article."}
 {"id": "patio-heater", "when": "electric", "hts10": "8516.29.00.90", "note": "Electric space heater; heading 7321 excludes electric apparatus."}
 {"id": "doormat", "when": "coir", "hts10": "5702.20.20.00", "note": "Coir (coconut fiber) floor covering."}
-{"id": "desk", "when": "computer desk", "hts10": "9403.30.80.90", "note": "Wooden furniture of a kind used in offices."}
-{"id": "desk", "when": "office desk", "hts10": "9403.30.80.90", "note": "Wooden furniture of a kind used in offices."}
+{"id": "desk", "when": "wood computer desk", "hts10": "9403.30.80.90", "note": "Wooden furniture of a kind used in offices."}
+{"id": "desk", "when": "wood office desk", "hts10": "9403.30.80.90", "note": "Wooden furniture of a kind used in offices."}
+{"id": "desk", "when": "metal", "hts10": "9403.10.00.40", "note": "Metal office furniture."}
