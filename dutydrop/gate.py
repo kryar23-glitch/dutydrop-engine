@@ -194,6 +194,16 @@ def firm_receipt(data: HTSData, code: str, origin: str, value, quantity=None, qu
             lines.remove(x)
             dropped.append((x["heading"], "note 52(f): not applied to Section 232 goods"))
 
+    # R12: note 52(b) and 52(c) exempt listed articles from the country duties (headings 9903.05.86, 9903.05.87)
+    exempt52 = [h for h, sub in (("9903.05.86", "b"), ("9903.05.87", "c"))
+                if any(C.digits(code).startswith(x) for x in note_list_codes(52, sub))]
+    if exempt52:
+        for x in [x for x in lines if "9903.05.20" <= x.get("heading", "") <= "9903.05.84"]:
+            lines.remove(x)
+            dropped.append((x["heading"], f"note 52 exemption {exempt52[0]}: listed article"))
+        keep_alts = [a for a in keep_alts if a["heading"] not in exempt52]
+        notes.append(f"Exempt from the country duty under heading {exempt52[0]} (U.S. note 52 list).")
+
     # R6: Mexico USMCA is a scenario, not an open stack
     mx = [l for l in lines if l.get("heading") == "9903.05.55"]
     if o == "mexico":
@@ -228,7 +238,8 @@ def note_list_codes(note: int, sub: str):
     """R10: the HTS codes enumerated in U.S. note <note>(<sub>), as digit strings. Empty when the
     subdivision is narrative (no code list) or cannot be found."""
     lines = _ch99_lines()
-    start = next((i for i, l in enumerate(lines) if re.match(rf"\s*{note}\.\s*\(a\)", l)), None)
+    start = next((i for i, l in enumerate(lines) if re.match(rf"\s*{note}\.\s*\(a\)", l)
+                  or (re.match(rf"\s*{note}\.\s*$", l) and any("(a)" in x for x in lines[i + 1:i + 4]))), None)
     if start is None:
         return ()
     end = next((i for i in range(start + 1, len(lines)) if re.match(rf"\s*{note + 1}\.\s*(\(a\))?\s", lines[i])), len(lines))

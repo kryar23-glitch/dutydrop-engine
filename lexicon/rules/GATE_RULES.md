@@ -41,11 +41,13 @@ R10. A heading whose note subdivision enumerates codes applies only to the codes
 
 R11. Transitional headings for goods "exported to the United States before" a past date (9903.88.09, May 2019) never apply to a new entry.
 
+R12. Note 52(b) and 52(c) list articles that owe no country duty (headings 9903.05.86 and 9903.05.87). Computers and parts in 8471 and monitors in 8528.52 are on the 52(b) list. For a listed code, drop the 9903.05.20 to 9903.05.84 line and print the exemption. Before this rule the gate overcharged keyboards, mice, monitors, scanners and storage units by 10 to 12.5 percent.
+
 R1 also covers overlay lines that need an importer certification of end use: 9903.94.07 (note 33(p), parts certified for U.S. auto production or repair).
 
 ## Result on the curated 200
 
-`dutydrop/gate.py` implements R1 to R11. On the 200 curated products for China, Vietnam and Mexico at $100 and $1.00 a unit, 600 of 600 receipts are firm and 200 of 200 products pass, each with its assumptions printed. Per receipt lines in `gate_results.json`. Tests in `tests/test_gate.py`.
+`dutydrop/gate.py` implements R1 to R12. On the 200 curated products for China, Vietnam and Mexico at $100 and $1.00 a unit, 600 of 600 receipts are firm and 200 of 200 products pass, each with its assumptions printed. Per receipt lines in `gate_results.json`. Tests in `tests/test_gate.py`.
 
 Open question for a broker: lithium ion batteries (8507.60) carry the Section 232 auto parts duty 9903.94.05 because 8507.60 is on the note 33(g) list. Whether CBP applies it to batteries not meant for vehicles is not settled in the note text; the gate keeps it, the conservative choice.
 

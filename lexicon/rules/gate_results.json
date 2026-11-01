@@ -6331,22 +6331,19 @@
   "product": "Computer keyboard",
   "hts10": "8471.60.20.00",
   "origin": "China",
-  "total": "12.50",
+  "total": "0.00",
   "lines": [
    [
     "base",
     "0.00"
-   ],
-   [
-    "9903.05.31",
-    "12.50"
    ]
   ],
   "assumptions": [
    "Assumes 100 units at $1.00 each."
   ],
   "notes": [
-   "A USTR product exclusion may apply if your product matches the exclusion text exactly."
+   "A USTR product exclusion may apply if your product matches the exclusion text exactly.",
+   "Exempt from the country duty under heading 9903.05.86 (U.S. note 52 list)."
   ],
   "scenarios": [],
   "needs": [],
@@ -6366,6 +6363,10 @@
    [
     "9903.96.02",
     "end-use exemption not claimed"
+   ],
+   [
+    "9903.05.31",
+    "note 52 exemption 9903.05.86: listed article"
    ]
   ]
  },
@@ -6373,21 +6374,19 @@
   "product": "Computer keyboard",
   "hts10": "8471.60.20.00",
   "origin": "Vietnam",
-  "total": "12.50",
+  "total": "0.00",
   "lines": [
    [
     "base",
     "0.00"
-   ],
-   [
-    "9903.05.84",
-    "12.50"
    ]
   ],
   "assumptions": [
    "Assumes 100 units at $1.00 each."
   ],
-  "notes": [],
+  "notes": [
+   "Exempt from the country duty under heading 9903.05.86 (U.S. note 52 list)."
+  ],
   "scenarios": [],
   "needs": [],
   "dropped": [
@@ -6398,6 +6397,10 @@
    [
     "9903.96.02",
     "end-use exemption not claimed"
+   ],
+   [
+    "9903.05.84",
+    "note 52 exemption 9903.05.86: listed article"
    ]
   ]
  },
@@ -6405,24 +6408,21 @@
   "product": "Computer keyboard",
   "hts10": "8471.60.20.00",
   "origin": "Mexico",
-  "total": "10.00",
+  "total": "0.00",
   "lines": [
    [
     "base",
     "0.00"
-   ],
-   [
-    "9903.05.55",
-    "10.00"
    ]
   ],
   "assumptions": [
    "Assumes 100 units at $1.00 each."
   ],
-  "notes": [],
+  "notes": [
+   "Exempt from the country duty under heading 9903.05.86 (U.S. note 52 list)."
+  ],
   "scenarios": [
-   "USMCA rate, if the goods qualify",
-   "If USMCA qualifying"
+   "USMCA rate, if the goods qualify"
   ],
   "needs": [],
   "dropped": [
@@ -6433,6 +6433,10 @@
    [
     "9903.96.02",
     "end-use exemption not claimed"
+   ],
+   [
+    "9903.05.55",
+    "note 52 exemption 9903.05.86: listed article"
    ]
   ]
  },
@@ -6440,7 +6444,7 @@
   "product": "Computer mouse",
   "hts10": "8471.60.90.50",
   "origin": "China",
-  "total": "37.50",
+  "total": "25.00",
   "lines": [
    [
     "base",
@@ -6449,17 +6453,14 @@
    [
     "9903.88.03",
     "25.00"
-   ],
-   [
-    "9903.05.31",
-    "12.50"
    ]
   ],
   "assumptions": [
    "Assumes 100 units at $1.00 each."
   ],
   "notes": [
-   "A USTR product exclusion may apply if your product matches the exclusion text exactly."
+   "A USTR product exclusion may apply if your product matches the exclusion text exactly.",
+   "Exempt from the country duty under heading 9903.05.86 (U.S. note 52 list)."
   ],
   "scenarios": [],
   "needs": [],
@@ -6483,6 +6484,10 @@
    [
     "9903.88.09",
     "transitional heading for goods in transit on a past date"
+   ],
+   [
+    "9903.05.31",
+    "note 52 exemption 9903.05.86: listed article"
    ]
   ]
  },
@@ -6490,21 +6495,19 @@
   "product": "Computer mouse",
   "hts10": "8471.60.90.50",
   "origin": "Vietnam",
-  "total": "12.50",
+  "total": "0.00",
   "lines": [
    [
     "base",
     "0.00"
-   ],
-   [
-    "9903.05.84",
-    "12.50"
    ]
   ],
   "assumptions": [
    "Assumes 100 units at $1.00 each."
   ],
-  "notes": [],
+  "notes": [
+   "Exempt from the country duty under heading 9903.05.86 (U.S. note 52 list)."
+  ],
   "scenarios": [],
   "needs": [],
   "dropped": [
@@ -6515,6 +6518,10 @@
    [
     "9903.96.02",
     "end-use exemption not claimed"
+   ],
+   [
+    "9903.05.84",
+    "note 52 exemption 9903.05.86: listed article"
    ]
   ]
  },
@@ -6522,24 +6529,21 @@
   "product": "Computer mouse",
   "hts10": "8471.60.90.50",
   "origin": "Mexico",
-  "total": "10.00",
+  "total": "0.00",
   "lines": [
    [
     "base",
     "0.00"
-   ],
-   [
-    "9903.05.55",
-    "10.00"
    ]
   ],
   "assumptions": [
    "Assumes 100 units at $1.00 each."
   ],
-  "notes": [],
+  "notes": [
+   "Exempt from the country duty under heading 9903.05.86 (U.S. note 52 list)."
+  ],
   "scenarios": [
-   "USMCA rate, if the goods qualify",
-   "If USMCA qualifying"
+   "USMCA rate, if the goods qualify"
   ],
   "needs": [],
   "dropped": [
@@ -6550,6 +6554,10 @@
    [
     "9903.96.02",
     "end-use exemption not claimed"
+   ],
+   [
+    "9903.05.55",
+    "note 52 exemption 9903.05.86: listed article"
    ]
   ]
  },
@@ -6557,21 +6565,19 @@
   "product": "Computer monitor",
   "hts10": "8528.52.00.00",
   "origin": "China",
-  "total": "12.50",
+  "total": "0.00",
   "lines": [
    [
     "base",
     "0.00"
-   ],
-   [
-    "9903.05.31",
-    "12.50"
    ]
   ],
   "assumptions": [
    "Assumes 100 units at $1.00 each."
   ],
-  "notes": [],
+  "notes": [
+   "Exempt from the country duty under heading 9903.05.86 (U.S. note 52 list)."
+  ],
   "scenarios": [],
   "needs": [],
   "dropped": [
@@ -6582,6 +6588,10 @@
    [
     "9903.96.02",
     "end-use exemption not claimed"
+   ],
+   [
+    "9903.05.31",
+    "note 52 exemption 9903.05.86: listed article"
    ]
   ]
  },
@@ -6589,21 +6599,19 @@
   "product": "Computer monitor",
   "hts10": "8528.52.00.00",
   "origin": "Vietnam",
-  "total": "12.50",
+  "total": "0.00",
   "lines": [
    [
     "base",
     "0.00"
-   ],
-   [
-    "9903.05.84",
-    "12.50"
    ]
   ],
   "assumptions": [
    "Assumes 100 units at $1.00 each."
   ],
-  "notes": [],
+  "notes": [
+   "Exempt from the country duty under heading 9903.05.86 (U.S. note 52 list)."
+  ],
   "scenarios": [],
   "needs": [],
   "dropped": [
@@ -6614,6 +6622,10 @@
    [
     "9903.96.02",
     "end-use exemption not claimed"
+   ],
+   [
+    "9903.05.84",
+    "note 52 exemption 9903.05.86: listed article"
    ]
   ]
  },
@@ -6621,24 +6633,21 @@
   "product": "Computer monitor",
   "hts10": "8528.52.00.00",
   "origin": "Mexico",
-  "total": "10.00",
+  "total": "0.00",
   "lines": [
    [
     "base",
     "0.00"
-   ],
-   [
-    "9903.05.55",
-    "10.00"
    ]
   ],
   "assumptions": [
    "Assumes 100 units at $1.00 each."
   ],
-  "notes": [],
+  "notes": [
+   "Exempt from the country duty under heading 9903.05.86 (U.S. note 52 list)."
+  ],
   "scenarios": [
-   "USMCA rate, if the goods qualify",
-   "If USMCA qualifying"
+   "USMCA rate, if the goods qualify"
   ],
   "needs": [],
   "dropped": [
@@ -6649,6 +6658,10 @@
    [
     "9903.96.02",
     "end-use exemption not claimed"
+   ],
+   [
+    "9903.05.55",
+    "note 52 exemption 9903.05.86: listed article"
    ]
   ]
  },
@@ -6797,7 +6810,7 @@
   "product": "Computer scanner",
   "hts10": "8471.60.80.00",
   "origin": "China",
-  "total": "20.00",
+  "total": "7.50",
   "lines": [
    [
     "base",
@@ -6806,17 +6819,14 @@
    [
     "9903.88.15",
     "7.50"
-   ],
-   [
-    "9903.05.31",
-    "12.50"
    ]
   ],
   "assumptions": [
    "Assumes 100 units at $1.00 each."
   ],
   "notes": [
-   "A USTR product exclusion may apply if your product matches the exclusion text exactly."
+   "A USTR product exclusion may apply if your product matches the exclusion text exactly.",
+   "Exempt from the country duty under heading 9903.05.86 (U.S. note 52 list)."
   ],
   "scenarios": [],
   "needs": [],
@@ -6840,6 +6850,10 @@
    [
     "9903.96.02",
     "end-use exemption not claimed"
+   ],
+   [
+    "9903.05.31",
+    "note 52 exemption 9903.05.86: listed article"
    ]
   ]
  },
@@ -6847,21 +6861,19 @@
   "product": "Computer scanner",
   "hts10": "8471.60.80.00",
   "origin": "Vietnam",
-  "total": "12.50",
+  "total": "0.00",
   "lines": [
    [
     "base",
     "0.00"
-   ],
-   [
-    "9903.05.84",
-    "12.50"
    ]
   ],
   "assumptions": [
    "Assumes 100 units at $1.00 each."
   ],
-  "notes": [],
+  "notes": [
+   "Exempt from the country duty under heading 9903.05.86 (U.S. note 52 list)."
+  ],
   "scenarios": [],
   "needs": [],
   "dropped": [
@@ -6872,6 +6884,10 @@
    [
     "9903.96.02",
     "end-use exemption not claimed"
+   ],
+   [
+    "9903.05.84",
+    "note 52 exemption 9903.05.86: listed article"
    ]
   ]
  },
@@ -6879,24 +6895,21 @@
   "product": "Computer scanner",
   "hts10": "8471.60.80.00",
   "origin": "Mexico",
-  "total": "10.00",
+  "total": "0.00",
   "lines": [
    [
     "base",
     "0.00"
-   ],
-   [
-    "9903.05.55",
-    "10.00"
    ]
   ],
   "assumptions": [
    "Assumes 100 units at $1.00 each."
   ],
-  "notes": [],
+  "notes": [
+   "Exempt from the country duty under heading 9903.05.86 (U.S. note 52 list)."
+  ],
   "scenarios": [
-   "USMCA rate, if the goods qualify",
-   "If USMCA qualifying"
+   "USMCA rate, if the goods qualify"
   ],
   "needs": [],
   "dropped": [
@@ -6907,6 +6920,10 @@
    [
     "9903.96.02",
     "end-use exemption not claimed"
+   ],
+   [
+    "9903.05.55",
+    "note 52 exemption 9903.05.86: listed article"
    ]
   ]
  },
@@ -7772,7 +7789,7 @@
   "product": "Computer storage unit",
   "hts10": "8471.70.50.65",
   "origin": "China",
-  "total": "37.50",
+  "total": "25.00",
   "lines": [
    [
     "base",
@@ -7781,17 +7798,14 @@
    [
     "9903.88.03",
     "25.00"
-   ],
-   [
-    "9903.05.31",
-    "12.50"
    ]
   ],
   "assumptions": [
    "Assumes 100 units at $1.00 each."
   ],
   "notes": [
-   "A USTR product exclusion may apply if your product matches the exclusion text exactly."
+   "A USTR product exclusion may apply if your product matches the exclusion text exactly.",
+   "Exempt from the country duty under heading 9903.05.86 (U.S. note 52 list)."
   ],
   "scenarios": [],
   "needs": [],
@@ -7815,6 +7829,10 @@
    [
     "9903.88.09",
     "transitional heading for goods in transit on a past date"
+   ],
+   [
+    "9903.05.31",
+    "note 52 exemption 9903.05.86: listed article"
    ]
   ]
  },
@@ -7822,21 +7840,19 @@
   "product": "Computer storage unit",
   "hts10": "8471.70.50.65",
   "origin": "Vietnam",
-  "total": "12.50",
+  "total": "0.00",
   "lines": [
    [
     "base",
     "0.00"
-   ],
-   [
-    "9903.05.84",
-    "12.50"
    ]
   ],
   "assumptions": [
    "Assumes 100 units at $1.00 each."
   ],
-  "notes": [],
+  "notes": [
+   "Exempt from the country duty under heading 9903.05.86 (U.S. note 52 list)."
+  ],
   "scenarios": [],
   "needs": [],
   "dropped": [
@@ -7847,6 +7863,10 @@
    [
     "9903.96.02",
     "end-use exemption not claimed"
+   ],
+   [
+    "9903.05.84",
+    "note 52 exemption 9903.05.86: listed article"
    ]
   ]
  },
@@ -7854,24 +7874,21 @@
   "product": "Computer storage unit",
   "hts10": "8471.70.50.65",
   "origin": "Mexico",
-  "total": "10.00",
+  "total": "0.00",
   "lines": [
    [
     "base",
     "0.00"
-   ],
-   [
-    "9903.05.55",
-    "10.00"
    ]
   ],
   "assumptions": [
    "Assumes 100 units at $1.00 each."
   ],
-  "notes": [],
+  "notes": [
+   "Exempt from the country duty under heading 9903.05.86 (U.S. note 52 list)."
+  ],
   "scenarios": [
-   "USMCA rate, if the goods qualify",
-   "If USMCA qualifying"
+   "USMCA rate, if the goods qualify"
   ],
   "needs": [],
   "dropped": [
@@ -7882,6 +7899,10 @@
    [
     "9903.96.02",
     "end-use exemption not claimed"
+   ],
+   [
+    "9903.05.55",
+    "note 52 exemption 9903.05.86: listed article"
    ]
   ]
  },

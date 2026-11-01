@@ -52,3 +52,13 @@ def test_battery_drops_end_use_and_unlisted_headings(d):
     r = gate.firm_receipt(d, "8507.60.00.90", "China", 100, unit_price=1, today=TODAY)
     assert "9903.94.07" not in heads(r) and "9903.91.08" not in heads(r)
     assert "9903.91.06" in heads(r)
+
+
+def test_note52b_listed_article_owes_no_country_duty(d):
+    r = gate.firm_receipt(d, "8471.60.20.00", "Vietnam", 100, unit_price=1, today=TODAY)
+    assert r["total"] == "0.00"
+    assert not any(h.startswith("9903.05") for h in heads(r))
+
+
+def test_note_list_parser_reads_note52(d):
+    assert "84716020" in gate.note_list_codes(52, "b")
